@@ -18,9 +18,12 @@ In addition, it has been observed that Danijel's alignment is unreliable in case
 
 ## Set up the environment
 
-Prerequisites: You should have `mamba` (or `conda`) installed. All `mamba` commands in this section can be adapted to be run with `conda` instead by simply replacing `mamba` with `conda`.
+Prerequisites: You should have `mamba` (or `conda`) installed.
+
+All `mamba` commands in this section can be adapted to be run with `conda` instead by simply replacing `mamba` with `conda`.
 
 The environment can be recreated exactly with
+
 ```mamba create -f transformers.yml```
 
 This will install all the necessary software. Next we activate it by running
@@ -30,11 +33,12 @@ This will install all the necessary software. Next we activate it by running
 ## Downloading data
 
 I use a script to download data from CLARIN repo. Run it with:
+
 ```bash 0_data_download.sh```
 
 ## Running the pipeline
 
-With `mamba` :
+With `mamba`:
 
 ```snakemake -j 1 --use-conda```
 
