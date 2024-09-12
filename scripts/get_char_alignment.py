@@ -148,7 +148,7 @@ for i, entry in enumerate(mp):
         s, e = crow
         for ws, we in word_lens:
             if (s > ws) and (e > we) and (s < we) and (e > ws):
-                char_lens[j] = [s, max(we, s)]
+                char_lens[j] = [s, we]
                 break
     first_word_offset = entry["words"][0]["char_s"]
     current_results = []
