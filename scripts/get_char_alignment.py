@@ -6,8 +6,8 @@ try:
     outputpath = snakemake.output.json
     environ["CUDA_VISIBLE_DEVICES"] = snakemake.params.cuda
 except NameError:
-    wavpath = "data/MPwav/MP_13.wav"
-    jsonpath = "data/MPjson/MP_13.json"
+    wavpath = "data/MPwav/MP_00.wav"
+    jsonpath = "data/MPjson/MP_00.json"
     outputpath = "brisi.json"
     environ["CUDA_VISIBLE_DEVICES"] = "4"
 
@@ -147,9 +147,24 @@ for i, entry in enumerate(mp):
     for j, crow in enumerate(char_lens):
         s, e = crow
         for ws, we in word_lens:
-            if (s > ws) and (e > we):
-                char_lens[j] = [s, we]
-    results[i] = char_lens
+            if (s > ws) and (e > we) and (s < we) and (e > ws):
+                char_lens[j] = [s, max(we, s)]
+                break
+    first_word_offset = entry["words"][0]["char_s"]
+    current_results = []
+    for j, (time_s, time_e) in enumerate(char_lens):
+        assert time_s <= time_e, "Negative duration!"
+        current_results.append(
+            {
+                "char": trans[j],
+                "char_s": first_word_offset + j,
+                "char_e": first_word_offset + j + 1,
+                "time_s": time_s,
+                "time_e": time_e,
+            }
+        )
+    assert len(current_results) == len(trans)
+    results[i] = current_results
 for i, _ in enumerate(mp):
     mp[i]["chars"] = results[i]
 Path(outputpath).write_text(json.dumps(mp, ensure_ascii=False, indent=4))
