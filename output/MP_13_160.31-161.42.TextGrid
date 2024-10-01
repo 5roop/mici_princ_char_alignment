@@ -1,0 +1,42 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0
+xmax = 1.09
+tiers? <exists>
+size = 1
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "CharAlign"
+        xmin = 0.0
+        xmax = 1.09
+        intervals: size = 7
+            intervals [1]:
+                xmin = 0.03
+                xmax = 0.23
+                text = "a_B"
+            intervals [2]:
+                xmin = 0.23
+                xmax = 0.26
+                text = "x_E"
+            intervals [3]:
+                xmin = 0.42
+                xmax = 0.54
+                text = "z_B"
+            intervals [4]:
+                xmin = 0.54
+                xmax = 0.66
+                text = "v_I"
+            intervals [5]:
+                xmin = 0.66
+                xmax = 0.88
+                text = "i_I"
+            intervals [6]:
+                xmin = 0.88
+                xmax = 1.0
+                text = "z_I"
+            intervals [7]:
+                xmin = 1.0
+                xmax = 1.04
+                text = "d_E"

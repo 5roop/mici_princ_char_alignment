@@ -26,3 +26,11 @@ cd ../MPexb
 curl --remote-name-all https://www.clarin.si/repository/xmlui/bitstream/handle/11356/1765/MP.exb.tgz
 tar xzvf *.tgz
 rm *.tgz
+
+cd ../MPmp3
+mkdir -p ../MPmp3_wav
+for i in $(ls *.mp3)
+do
+    ffmpeg -i "$i" -ac 1 -ar 16000 "../MPmp3_wav/${i%.mp3}.wav" &
+done
+wait

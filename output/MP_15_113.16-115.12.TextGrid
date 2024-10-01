@@ -1,0 +1,86 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.0
+xmax = 1.94
+tiers? <exists>
+size = 1
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "CharAlign"
+        xmin = 0.0
+        xmax = 1.94
+        intervals: size = 18
+            intervals [1]:
+                xmin = 0.0
+                xmax = 0.14
+                text = "e_S"
+            intervals [2]:
+                xmin = 0.39
+                xmax = 0.54
+                text = "t_B"
+            intervals [3]:
+                xmin = 0.54
+                xmax = 0.72
+                text = "o_E"
+            intervals [4]:
+                xmin = 0.72
+                xmax = 0.79
+                text = "t_B"
+            intervals [5]:
+                xmin = 0.79
+                xmax = 0.95
+                text = "i_E"
+            intervals [6]:
+                xmin = 0.95
+                xmax = 0.99
+                text = "j_B"
+            intervals [7]:
+                xmin = 0.99
+                xmax = 1.12
+                text = "a_E"
+            intervals [8]:
+                xmin = 1.12
+                xmax = 1.19
+                text = "n_B"
+            intervals [9]:
+                xmin = 1.19
+                xmax = 1.25
+                text = "e_E"
+            intervals [10]:
+                xmin = 1.25
+                xmax = 1.37
+                text = "m_B"
+            intervals [11]:
+                xmin = 1.37
+                xmax = 1.46
+                text = "o_I"
+            intervals [12]:
+                xmin = 1.46
+                xmax = 1.51
+                text = "r_I"
+            intervals [13]:
+                xmin = 1.51
+                xmax = 1.59
+                text = "e_I"
+            intervals [14]:
+                xmin = 1.59
+                xmax = 1.67
+                text = "n_E"
+            intervals [15]:
+                xmin = 1.67
+                xmax = 1.76
+                text = "z_B"
+            intervals [16]:
+                xmin = 1.76
+                xmax = 1.84
+                text = "n_I"
+            intervals [17]:
+                xmin = 1.84
+                xmax = 1.91
+                text = "a_I"
+            intervals [18]:
+                xmin = 1.91
+                xmax = 1.94
+                text = "t_E"
