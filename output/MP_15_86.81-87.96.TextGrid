@@ -11,7 +11,7 @@ item []:
         name = "CharAlign"
         xmin = 0.0
         xmax = 1.13
-        intervals: size = 13
+        intervals: size = 15
             intervals [1]:
                 xmin = 0.0
                 xmax = 0.1
@@ -29,38 +29,46 @@ item []:
                 xmax = 0.19
                 text = "e_E"
             intervals [5]:
+                xmin = 0.19
+                xmax = 0.28
+                text = "sp"
+            intervals [6]:
                 xmin = 0.28
                 xmax = 0.37
                 text = "t_B"
-            intervals [6]:
+            intervals [7]:
                 xmin = 0.37
                 xmax = 0.44
                 text = "o_E"
-            intervals [7]:
+            intervals [8]:
                 xmin = 0.44
                 xmax = 0.51
                 text = "g_B"
-            intervals [8]:
+            intervals [9]:
                 xmin = 0.51
                 xmax = 0.6
                 text = "e_I"
-            intervals [9]:
+            intervals [10]:
                 xmin = 0.6
                 xmax = 0.67
                 text = "o_I"
-            intervals [10]:
+            intervals [11]:
                 xmin = 0.67
                 xmax = 0.79
                 text = "g_I"
-            intervals [11]:
+            intervals [12]:
                 xmin = 0.79
                 xmax = 0.87
                 text = "r_I"
-            intervals [12]:
+            intervals [13]:
                 xmin = 0.87
                 xmax = 0.96
                 text = "a_I"
-            intervals [13]:
+            intervals [14]:
                 xmin = 0.96
                 xmax = 1.01
                 text = "f_E"
+            intervals [15]:
+                xmin = 1.01
+                xmax = 1.13
+                text = "sp"

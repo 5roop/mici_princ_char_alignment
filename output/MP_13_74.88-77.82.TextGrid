@@ -11,7 +11,7 @@ item []:
         name = "CharAlign"
         xmin = 0.0
         xmax = 2.92
-        intervals: size = 24
+        intervals: size = 26
             intervals [1]:
                 xmin = 0.0
                 xmax = 0.05
@@ -33,78 +33,86 @@ item []:
                 xmax = 0.3
                 text = "r_E"
             intervals [6]:
+                xmin = 0.3
+                xmax = 0.33
+                text = "sp"
+            intervals [7]:
                 xmin = 0.33
                 xmax = 0.36
                 text = "d_B"
-            intervals [7]:
+            intervals [8]:
                 xmin = 0.36
                 xmax = 0.6
                 text = "a_I"
-            intervals [8]:
+            intervals [9]:
                 xmin = 0.6
                 xmax = 0.74
                 text = "n_E"
-            intervals [9]:
+            intervals [10]:
+                xmin = 0.74
+                xmax = 1.59
+                text = "sp"
+            intervals [11]:
                 xmin = 1.59
                 xmax = 1.78
                 text = "z_B"
-            intervals [10]:
+            intervals [12]:
                 xmin = 1.78
                 xmax = 1.86
                 text = "a_I"
-            intervals [11]:
+            intervals [13]:
                 xmin = 1.86
                 xmax = 1.92
                 text = "g_I"
-            intervals [12]:
+            intervals [14]:
                 xmin = 1.92
                 xmax = 1.98
                 text = "a_I"
-            intervals [13]:
+            intervals [15]:
                 xmin = 1.98
                 xmax = 2.07
                 text = "s_I"
-            intervals [14]:
+            intervals [16]:
                 xmin = 2.07
                 xmax = 2.13
                 text = "i_I"
-            intervals [15]:
+            intervals [17]:
                 xmin = 2.13
                 xmax = 2.16
                 text = "v_E"
-            intervals [16]:
+            intervals [18]:
                 xmin = 2.16
                 xmax = 2.21
                 text = "v_B"
-            intervals [17]:
+            intervals [19]:
                 xmin = 2.21
                 xmax = 2.28
                 text = "a_I"
-            intervals [18]:
+            intervals [20]:
                 xmin = 2.28
                 xmax = 2.34
                 text = "n_E"
-            intervals [19]:
+            intervals [21]:
                 xmin = 2.34
                 xmax = 2.39
                 text = "s_B"
-            intervals [20]:
+            intervals [22]:
                 xmin = 2.39
                 xmax = 2.45
                 text = "e_E"
-            intervals [21]:
+            intervals [23]:
                 xmin = 2.45
                 xmax = 2.51
                 text = "j_S"
-            intervals [22]:
+            intervals [24]:
                 xmin = 2.51
                 xmax = 2.6
                 text = "tcp_B"
-            intervals [23]:
+            intervals [25]:
                 xmin = 2.6
                 xmax = 2.73
                 text = "i_I"
-            intervals [24]:
+            intervals [26]:
                 xmin = 2.73
                 xmax = 2.92
                 text = "k_E"
