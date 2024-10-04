@@ -4,7 +4,7 @@ Object class = "TextGrid"
 xmin = 0.0
 xmax = 14.5
 tiers? <exists>
-size = 1
+size = 2
 item []:
     item [1]:
         class = "IntervalTier"
@@ -628,3 +628,133 @@ item []:
                 xmin = 14.47
                 xmax = 14.5
                 text = "sp"
+    item [1]:
+        class = "IntervalTier"
+        name = "WordAlign"
+        xmin = 0.0
+        xmax = 14.5
+        intervals: size = 31
+            intervals [1]:
+                xmin = 0.0
+                xmax = 0.18
+                text = "ta"
+            intervals [2]:
+                xmin = 0.18
+                xmax = 0.45
+                text = "put"
+            intervals [3]:
+                xmin = 0.45
+                xmax = 0.61
+                text = "se"
+            intervals [4]:
+                xmin = 0.61
+                xmax = 1.33
+                text = "protegne"
+            intervals [5]:
+                xmin = 1.36
+                xmax = 1.48
+                text = "i"
+            intervals [6]:
+                xmin = 1.48
+                xmax = 2.06
+                text = "porene"
+            intervals [7]:
+                xmin = 2.27
+                xmax = 2.99
+                text = "najprvo"
+            intervals [8]:
+                xmin = 3.02
+                xmax = 3.81
+                text = "sramežjivo"
+            intervals [9]:
+                xmin = 3.81
+                xmax = 4.12
+                text = "prama"
+            intervals [10]:
+                xmin = 4.12
+                xmax = 4.78
+                text = "suncu"
+            intervals [11]:
+                xmin = 4.94
+                xmax = 5.25
+                text = "jenu"
+            intervals [12]:
+                xmin = 5.25
+                xmax = 6.11
+                text = "čudovitu"
+            intervals [13]:
+                xmin = 6.16
+                xmax = 6.79
+                text = "miću"
+            intervals [14]:
+                xmin = 7.05
+                xmax = 7.35
+                text = "brez"
+            intervals [15]:
+                xmin = 7.35
+                xmax = 7.72
+                text = "zla"
+            intervals [16]:
+                xmin = 7.75
+                xmax = 8.47
+                text = "mladicu"
+            intervals [17]:
+                xmin = 8.71
+                xmax = 9.0
+                text = "ako"
+            intervals [18]:
+                xmin = 9.0
+                xmax = 9.09
+                text = "je"
+            intervals [19]:
+                xmin = 9.09
+                xmax = 9.29
+                text = "to"
+            intervals [20]:
+                xmin = 9.29
+                xmax = 10.02
+                text = "mladica"
+            intervals [21]:
+                xmin = 10.05
+                xmax = 10.25
+                text = "od"
+            intervals [22]:
+                xmin = 10.25
+                xmax = 10.85
+                text = "ravice"
+            intervals [23]:
+                xmin = 10.85
+                xmax = 11.13
+                text = "ali"
+            intervals [24]:
+                xmin = 11.13
+                xmax = 11.78
+                text = "šipka"
+            intervals [25]:
+                xmin = 11.99
+                xmax = 12.42
+                text = "moremo"
+            intervals [26]:
+                xmin = 12.42
+                xmax = 12.5
+                text = "je"
+            intervals [27]:
+                xmin = 12.5
+                xmax = 12.94
+                text = "mirne"
+            intervals [28]:
+                xmin = 12.94
+                xmax = 13.48
+                text = "duše"
+            intervals [29]:
+                xmin = 13.51
+                xmax = 13.83
+                text = "pustit"
+            intervals [30]:
+                xmin = 13.83
+                xmax = 14.05
+                text = "da"
+            intervals [31]:
+                xmin = 14.05
+                xmax = 14.47
+                text = "rase"

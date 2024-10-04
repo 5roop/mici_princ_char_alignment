@@ -4,7 +4,7 @@ Object class = "TextGrid"
 xmin = 0.0
 xmax = 9.93
 tiers? <exists>
-size = 1
+size = 2
 item []:
     item [1]:
         class = "IntervalTier"
@@ -428,3 +428,105 @@ item []:
                 xmin = 9.9
                 xmax = 9.93
                 text = "sp"
+    item [1]:
+        class = "IntervalTier"
+        name = "WordAlign"
+        xmin = 0.0
+        xmax = 9.93
+        intervals: size = 24
+            intervals [1]:
+                xmin = 0.0
+                xmax = 0.23
+                text = "vrni"
+            intervals [2]:
+                xmin = 0.23
+                xmax = 0.53
+                text = "se"
+            intervals [3]:
+                xmin = 0.62
+                xmax = 1.02
+                text = "jutro"
+            intervals [4]:
+                xmin = 1.02
+                xmax = 1.59
+                text = "večer"
+            intervals [5]:
+                xmin = 1.91
+                xmax = 2.07
+                text = "to"
+            intervals [6]:
+                xmin = 2.07
+                xmax = 2.24
+                text = "me"
+            intervals [7]:
+                xmin = 2.24
+                xmax = 2.4
+                text = "ni"
+            intervals [8]:
+                xmin = 2.4
+                xmax = 3.03
+                text = "umirilo"
+            intervals [9]:
+                xmin = 3.26
+                xmax = 3.8
+                text = "zmisliv"
+            intervals [10]:
+                xmin = 3.8
+                xmax = 4.01
+                text = "san"
+            intervals [11]:
+                xmin = 4.01
+                xmax = 4.19
+                text = "se"
+            intervals [12]:
+                xmin = 4.19
+                xmax = 4.76
+                text = "lisice"
+            intervals [13]:
+                xmin = 5.17
+                xmax = 5.46
+                text = "kad"
+            intervals [14]:
+                xmin = 5.46
+                xmax = 5.88
+                text = "čovik"
+            intervals [15]:
+                xmin = 5.91
+                xmax = 6.34
+                text = "pusti"
+            intervals [16]:
+                xmin = 6.34
+                xmax = 6.5
+                text = "da"
+            intervals [17]:
+                xmin = 6.5
+                xmax = 6.64
+                text = "ga"
+            intervals [18]:
+                xmin = 6.64
+                xmax = 7.35
+                text = "pripitome"
+            intervals [19]:
+                xmin = 7.88
+                xmax = 8.2
+                text = "more"
+            intervals [20]:
+                xmin = 8.2
+                xmax = 8.35
+                text = "se"
+            intervals [21]:
+                xmin = 8.35
+                xmax = 8.89
+                text = "dogodit"
+            intervals [22]:
+                xmin = 8.94
+                xmax = 9.11
+                text = "i"
+            intervals [23]:
+                xmin = 9.11
+                xmax = 9.27
+                text = "da"
+            intervals [24]:
+                xmin = 9.27
+                xmax = 9.9
+                text = "zaplače"

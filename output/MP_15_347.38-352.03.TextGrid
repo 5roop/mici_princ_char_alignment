@@ -4,7 +4,7 @@ Object class = "TextGrid"
 xmin = 0.0
 xmax = 4.63
 tiers? <exists>
-size = 1
+size = 2
 item []:
     item [1]:
         class = "IntervalTier"
@@ -248,3 +248,69 @@ item []:
                 xmin = 4.6
                 xmax = 4.63
                 text = "v_E"
+    item [1]:
+        class = "IntervalTier"
+        name = "WordAlign"
+        xmin = 0.0
+        xmax = 4.63
+        intervals: size = 15
+            intervals [1]:
+                xmin = 0.04
+                xmax = 0.16
+                text = "to"
+            intervals [2]:
+                xmin = 0.16
+                xmax = 0.24
+                text = "je"
+            intervals [3]:
+                xmin = 0.24
+                xmax = 0.51
+                text = "bilo"
+            intervals [4]:
+                xmin = 0.51
+                xmax = 0.8
+                text = "prvi"
+            intervals [5]:
+                xmin = 0.8
+                xmax = 1.02
+                text = "put"
+            intervals [6]:
+                xmin = 1.02
+                xmax = 1.15
+                text = "da"
+            intervals [7]:
+                xmin = 1.15
+                xmax = 1.27
+                text = "ga"
+            intervals [8]:
+                xmin = 1.27
+                xmax = 1.35
+                text = "je"
+            intervals [9]:
+                xmin = 1.35
+                xmax = 1.86
+                text = "prezelo"
+            intervals [10]:
+                xmin = 1.86
+                xmax = 2.5
+                text = "žalovanje"
+            intervals [11]:
+                xmin = 2.9
+                xmax = 3.06
+                text = "ma"
+            intervals [12]:
+                xmin = 3.06
+                xmax = 3.24
+                text = "se"
+            intervals [13]:
+                xmin = 3.24
+                xmax = 3.27
+                text = "j"
+            intervals [14]:
+                xmin = 3.27
+                xmax = 3.86
+                text = "sponova"
+            intervals [15]:
+                xmin = 3.91
+                xmax = 4.63
+                text = "okuraživ"

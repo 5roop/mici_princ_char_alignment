@@ -4,7 +4,7 @@ Object class = "TextGrid"
 xmin = 0.0
 xmax = 7.81
 tiers? <exists>
-size = 1
+size = 2
 item []:
     item [1]:
         class = "IntervalTier"
@@ -364,3 +364,89 @@ item []:
                 xmin = 7.76
                 xmax = 7.81
                 text = "sp"
+    item [1]:
+        class = "IntervalTier"
+        name = "WordAlign"
+        xmin = 0.0
+        xmax = 7.81
+        intervals: size = 20
+            intervals [1]:
+                xmin = 0.03
+                xmax = 0.16
+                text = "pa"
+            intervals [2]:
+                xmin = 0.16
+                xmax = 0.45
+                text = "oni"
+            intervals [3]:
+                xmin = 0.45
+                xmax = 0.65
+                text = "z"
+            intervals [4]:
+                xmin = 0.65
+                xmax = 1.2
+                text = "severne"
+            intervals [5]:
+                xmin = 1.51
+                xmax = 1.64
+                text = "i"
+            intervals [6]:
+                xmin = 1.64
+                xmax = 2.05
+                text = "nigdar"
+            intervals [7]:
+                xmin = 2.05
+                xmax = 2.23
+                text = "se"
+            intervals [8]:
+                xmin = 2.23
+                xmax = 2.6
+                text = "nisu"
+            intervals [9]:
+                xmin = 2.6
+                xmax = 3.39
+                text = "pomutili"
+            intervals [10]:
+                xmin = 3.48
+                xmax = 3.65
+                text = "po"
+            intervals [11]:
+                xmin = 3.65
+                xmax = 4.06
+                text = "kin"
+            intervals [12]:
+                xmin = 4.06
+                xmax = 4.42
+                text = "redu"
+            intervals [13]:
+                xmin = 4.42
+                xmax = 4.84
+                text = "tribi"
+            intervals [14]:
+                xmin = 4.84
+                xmax = 5.23
+                text = "zać"
+            intervals [15]:
+                xmin = 5.23
+                xmax = 5.38
+                text = "na"
+            intervals [16]:
+                xmin = 5.38
+                xmax = 6.18
+                text = "pozornicu"
+            intervals [17]:
+                xmin = 6.3
+                xmax = 6.59
+                text = "bilo"
+            intervals [18]:
+                xmin = 6.59
+                xmax = 6.66
+                text = "je"
+            intervals [19]:
+                xmin = 6.66
+                xmax = 6.87
+                text = "to"
+            intervals [20]:
+                xmin = 6.87
+                xmax = 7.76
+                text = "veličanstveno"

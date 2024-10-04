@@ -4,7 +4,7 @@ Object class = "TextGrid"
 xmin = 0.0
 xmax = 18.02
 tiers? <exists>
-size = 1
+size = 2
 item []:
     item [1]:
         class = "IntervalTier"
@@ -728,3 +728,173 @@ item []:
                 xmin = 17.99
                 xmax = 18.02
                 text = "a_E"
+    item [1]:
+        class = "IntervalTier"
+        name = "WordAlign"
+        xmin = 0.0
+        xmax = 18.02
+        intervals: size = 41
+            intervals [1]:
+                xmin = 0.0
+                xmax = 0.23
+                text = "već"
+            intervals [2]:
+                xmin = 0.23
+                xmax = 0.43
+                text = "se"
+            intervals [3]:
+                xmin = 0.43
+                xmax = 0.75
+                text = "biv"
+            intervals [4]:
+                xmin = 0.78
+                xmax = 1.46
+                text = "prestrašiv"
+            intervals [5]:
+                xmin = 1.46
+                xmax = 1.59
+                text = "da"
+            intervals [6]:
+                xmin = 1.59
+                xmax = 1.67
+                text = "je"
+            intervals [7]:
+                xmin = 1.67
+                xmax = 2.03
+                text = "miniv"
+            intervals [8]:
+                xmin = 2.03
+                xmax = 2.64
+                text = "planet"
+            intervals [9]:
+                xmin = 2.84
+                xmax = 3.01
+                text = "kada"
+            intervals [10]:
+                xmin = 3.01
+                xmax = 3.16
+                text = "se"
+            intervals [11]:
+                xmin = 3.16
+                xmax = 3.38
+                text = "niki"
+            intervals [12]:
+                xmin = 3.38
+                xmax = 3.88
+                text = "prsten"
+            intervals [13]:
+                xmin = 3.88
+                xmax = 4.44
+                text = "nako"
+            intervals [14]:
+                xmin = 4.63
+                xmax = 5.1
+                text = "kolura"
+            intervals [15]:
+                xmin = 5.1
+                xmax = 5.34
+                text = "kot"
+            intervals [16]:
+                xmin = 5.34
+                xmax = 5.85
+                text = "misec"
+            intervals [17]:
+                xmin = 5.99
+                xmax = 6.34
+                text = "movi"
+            intervals [18]:
+                xmin = 6.34
+                xmax = 6.52
+                text = "po"
+            intervals [19]:
+                xmin = 6.52
+                xmax = 7.13
+                text = "pisku"
+            intervals [20]:
+                xmin = 7.72
+                xmax = 7.96
+                text = "dobar"
+            intervals [21]:
+                xmin = 8.08
+                xmax = 8.53
+                text = "večer"
+            intervals [22]:
+                xmin = 8.89
+                xmax = 9.25
+                text = "dobra"
+            intervals [23]:
+                xmin = 9.25
+                xmax = 9.73
+                text = "večer"
+            intervals [24]:
+                xmin = 10.15
+                xmax = 10.29
+                text = "na"
+            intervals [25]:
+                xmin = 10.45
+                xmax = 10.51
+                text = "ki"
+            intervals [26]:
+                xmin = 10.51
+                xmax = 10.76
+                text = "san"
+            intervals [27]:
+                xmin = 10.76
+                xmax = 11.16
+                text = "planet"
+            intervals [28]:
+                xmin = 11.19
+                xmax = 11.48
+                text = "pav"
+            intervals [29]:
+                xmin = 11.95
+                xmax = 12.1
+                text = "na"
+            intervals [30]:
+                xmin = 12.1
+                xmax = 12.79
+                text = "zemju"
+            intervals [31]:
+                xmin = 13.45
+                xmax = 13.64
+                text = "va"
+            intervals [32]:
+                xmin = 13.64
+                xmax = 14.19
+                text = "afriku"
+            intervals [33]:
+                xmin = 14.37
+                xmax = 14.73
+                text = "o"
+            intervals [34]:
+                xmin = 15.31
+                xmax = 15.54
+                text = "na"
+            intervals [35]:
+                xmin = 15.54
+                xmax = 15.86
+                text = "zemji"
+            intervals [36]:
+                xmin = 15.86
+                xmax = 16.17
+                text = "onput"
+            intervals [37]:
+                xmin = 16.17
+                xmax = 16.29
+                text = "ni"
+            intervals [38]:
+                xmin = 16.29
+                xmax = 16.82
+                text = "nikogar"
+            intervals [39]:
+                xmin = 16.92
+                xmax = 17.24
+                text = "ovdi"
+            intervals [40]:
+                xmin = 17.24
+                xmax = 17.34
+                text = "je"
+            intervals [41]:
+                xmin = 17.34
+                xmax = 18.02
+                text = "pustinja"

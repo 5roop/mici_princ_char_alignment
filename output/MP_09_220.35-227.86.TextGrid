@@ -4,7 +4,7 @@ Object class = "TextGrid"
 xmin = 0.0
 xmax = 7.49
 tiers? <exists>
-size = 1
+size = 2
 item []:
     item [1]:
         class = "IntervalTier"
@@ -320,3 +320,81 @@ item []:
                 xmin = 7.46
                 xmax = 7.49
                 text = "k_E"
+    item [1]:
+        class = "IntervalTier"
+        name = "WordAlign"
+        xmin = 0.0
+        xmax = 7.49
+        intervals: size = 18
+            intervals [1]:
+                xmin = 0.03
+                xmax = 0.8
+                text = "dokončal"
+            intervals [2]:
+                xmin = 0.8
+                xmax = 0.98
+                text = "si"
+            intervals [3]:
+                xmin = 0.98
+                xmax = 1.12
+                text = "da"
+            intervals [4]:
+                xmin = 1.12
+                xmax = 1.63
+                text = "greš"
+            intervals [5]:
+                xmin = 2.05
+                xmax = 2.69
+                text = "onput"
+            intervals [6]:
+                xmin = 2.69
+                xmax = 3.17
+                text = "hodi"
+            intervals [7]:
+                xmin = 3.85
+                xmax = 4.15
+                text = "ni"
+            intervals [8]:
+                xmin = 4.15
+                xmax = 4.28
+                text = "tev"
+            intervals [9]:
+                xmin = 4.46
+                xmax = 4.6
+                text = "da"
+            intervals [10]:
+                xmin = 4.6
+                xmax = 4.72
+                text = "ga"
+            intervals [11]:
+                xmin = 4.72
+                xmax = 5.0
+                text = "vidi"
+            intervals [12]:
+                xmin = 5.0
+                xmax = 5.26
+                text = "kako"
+            intervals [13]:
+                xmin = 5.26
+                xmax = 5.74
+                text = "plače"
+            intervals [14]:
+                xmin = 5.87
+                xmax = 6.14
+                text = "biv"
+            intervals [15]:
+                xmin = 6.14
+                xmax = 6.27
+                text = "je"
+            intervals [16]:
+                xmin = 6.27
+                xmax = 6.61
+                text = "jako"
+            intervals [17]:
+                xmin = 6.61
+                xmax = 7.09
+                text = "ponosit"
+            intervals [18]:
+                xmin = 7.09
+                xmax = 7.49
+                text = "šipak"

@@ -4,7 +4,7 @@ Object class = "TextGrid"
 xmin = 0.0
 xmax = 6.25
 tiers? <exists>
-size = 1
+size = 2
 item []:
     item [1]:
         class = "IntervalTier"
@@ -324,3 +324,69 @@ item []:
                 xmin = 6.18
                 xmax = 6.25
                 text = "a_E"
+    item [1]:
+        class = "IntervalTier"
+        name = "WordAlign"
+        xmin = 0.0
+        xmax = 6.25
+        intervals: size = 15
+            intervals [1]:
+                xmin = 0.0
+                xmax = 0.14
+                text = "ča"
+            intervals [2]:
+                xmin = 0.14
+                xmax = 0.33
+                text = "to"
+            intervals [3]:
+                xmin = 0.33
+                xmax = 0.55
+                text = "ni"
+            intervals [4]:
+                xmin = 0.55
+                xmax = 1.09
+                text = "važnije"
+            intervals [5]:
+                xmin = 1.26
+                xmax = 1.42
+                text = "i"
+            intervals [6]:
+                xmin = 1.42
+                xmax = 1.76
+                text = "više"
+            intervals [7]:
+                xmin = 1.76
+                xmax = 2.35
+                text = "zaspraven"
+            intervals [8]:
+                xmin = 2.54
+                xmax = 3.03
+                text = "nigo"
+            intervals [9]:
+                xmin = 3.17
+                xmax = 3.62
+                text = "nikakov"
+            intervals [10]:
+                xmin = 3.62
+                xmax = 3.98
+                text = "račun"
+            intervals [11]:
+                xmin = 3.98
+                xmax = 4.07
+                text = "od"
+            intervals [12]:
+                xmin = 4.07
+                xmax = 4.36
+                text = "nikiga"
+            intervals [13]:
+                xmin = 4.36
+                xmax = 4.98
+                text = "debeliga"
+            intervals [14]:
+                xmin = 4.98
+                xmax = 5.55
+                text = "črvjeniga"
+            intervals [15]:
+                xmin = 5.55
+                xmax = 6.25
+                text = "štimanca"

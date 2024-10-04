@@ -4,7 +4,7 @@ Object class = "TextGrid"
 xmin = 0.0
 xmax = 7.19
 tiers? <exists>
-size = 1
+size = 2
 item []:
     item [1]:
         class = "IntervalTier"
@@ -380,3 +380,89 @@ item []:
                 xmin = 7.16
                 xmax = 7.19
                 text = "sp"
+    item [1]:
+        class = "IntervalTier"
+        name = "WordAlign"
+        xmin = 0.0
+        xmax = 7.19
+        intervals: size = 20
+            intervals [1]:
+                xmin = 0.0
+                xmax = 0.4
+                text = "pesto"
+            intervals [2]:
+                xmin = 0.4
+                xmax = 0.73
+                text = "jedan"
+            intervals [3]:
+                xmin = 0.73
+                xmax = 1.12
+                text = "mijun"
+            intervals [4]:
+                xmin = 1.12
+                xmax = 1.54
+                text = "sesto"
+            intervals [5]:
+                xmin = 1.54
+                xmax = 1.97
+                text = "dvajset"
+            intervals [6]:
+                xmin = 1.97
+                xmax = 2.02
+                text = "i"
+            intervals [7]:
+                xmin = 2.02
+                xmax = 2.22
+                text = "dva"
+            intervals [8]:
+                xmin = 2.22
+                xmax = 2.78
+                text = "mijara"
+            intervals [9]:
+                xmin = 2.78
+                xmax = 3.37
+                text = "sedonsto"
+            intervals [10]:
+                xmin = 3.37
+                xmax = 3.85
+                text = "trejset"
+            intervals [11]:
+                xmin = 3.85
+                xmax = 3.94
+                text = "i"
+            intervals [12]:
+                xmin = 3.94
+                xmax = 4.39
+                text = "jedan"
+            intervals [13]:
+                xmin = 4.78
+                xmax = 4.96
+                text = "ja"
+            intervals [14]:
+                xmin = 4.96
+                xmax = 5.14
+                text = "son"
+            intervals [15]:
+                xmin = 5.14
+                xmax = 5.35
+                text = "vero"
+            intervals [16]:
+                xmin = 5.35
+                xmax = 5.71
+                text = "seriji"
+            intervals [17]:
+                xmin = 5.76
+                xmax = 6.2
+                text = "covek"
+            intervals [18]:
+                xmin = 6.3
+                xmax = 6.5
+                text = "ja"
+            intervals [19]:
+                xmin = 6.5
+                xmax = 6.67
+                text = "son"
+            intervals [20]:
+                xmin = 6.67
+                xmax = 7.16
+                text = "jušti"

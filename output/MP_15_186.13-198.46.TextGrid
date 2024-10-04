@@ -4,7 +4,7 @@ Object class = "TextGrid"
 xmin = 0.0
 xmax = 12.309999999999999
 tiers? <exists>
-size = 1
+size = 2
 item []:
     item [1]:
         class = "IntervalTier"
@@ -464,3 +464,113 @@ item []:
                 xmin = 12.28
                 xmax = 12.31
                 text = "sp"
+    item [1]:
+        class = "IntervalTier"
+        name = "WordAlign"
+        xmin = 0.0
+        xmax = 12.309999999999999
+        intervals: size = 26
+            intervals [1]:
+                xmin = 0.24
+                xmax = 0.65
+                text = "zato"
+            intervals [2]:
+                xmin = 0.89
+                xmax = 1.11
+                text = "boj"
+            intervals [3]:
+                xmin = 1.11
+                xmax = 1.69
+                text = "pijani"
+            intervals [4]:
+                xmin = 1.69
+                xmax = 2.32
+                text = "ljudi"
+            intervals [5]:
+                xmin = 2.39
+                xmax = 2.74
+                text = "vidu"
+            intervals [6]:
+                xmin = 2.74
+                xmax = 3.08
+                text = "sve"
+            intervals [7]:
+                xmin = 3.08
+                xmax = 3.33
+                text = "na"
+            intervals [8]:
+                xmin = 3.36
+                xmax = 3.88
+                text = "duplo"
+            intervals [9]:
+                xmin = 4.17
+                xmax = 4.34
+                text = "pa"
+            intervals [10]:
+                xmin = 4.34
+                xmax = 4.49
+                text = "bi"
+            intervals [11]:
+                xmin = 4.49
+                xmax = 4.9
+                text = "tako"
+            intervals [12]:
+                xmin = 4.9
+                xmax = 5.5
+                text = "geograf"
+            intervals [13]:
+                xmin = 5.66
+                xmax = 5.86
+                text = "va"
+            intervals [14]:
+                xmin = 5.86
+                xmax = 6.42
+                text = "libar"
+            intervals [15]:
+                xmin = 6.45
+                xmax = 6.92
+                text = "sinjal"
+            intervals [16]:
+                xmin = 7.17
+                xmax = 7.58
+                text = "dvi"
+            intervals [17]:
+                xmin = 7.58
+                xmax = 8.28
+                text = "planine"
+            intervals [18]:
+                xmin = 8.39
+                xmax = 8.65
+                text = "i"
+            intervals [19]:
+                xmin = 8.65
+                xmax = 9.13
+                text = "tamo"
+            intervals [20]:
+                xmin = 9.33
+                xmax = 9.64
+                text = "kadi"
+            intervals [21]:
+                xmin = 9.64
+                xmax = 10.03
+                text = "nisu"
+            intervals [22]:
+                xmin = 10.03
+                xmax = 10.47
+                text = "dvi"
+            intervals [23]:
+                xmin = 10.68
+                xmax = 10.92
+                text = "nego"
+            intervals [24]:
+                xmin = 10.92
+                xmax = 10.99
+                text = "je"
+            intervals [25]:
+                xmin = 10.99
+                xmax = 11.52
+                text = "samo"
+            intervals [26]:
+                xmin = 11.81
+                xmax = 12.28
+                text = "jedna"

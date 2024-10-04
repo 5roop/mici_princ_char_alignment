@@ -4,7 +4,7 @@ Object class = "TextGrid"
 xmin = 0.0
 xmax = 6.67
 tiers? <exists>
-size = 1
+size = 2
 item []:
     item [1]:
         class = "IntervalTier"
@@ -352,3 +352,73 @@ item []:
                 xmin = 6.64
                 xmax = 6.67
                 text = "t_E"
+    item [1]:
+        class = "IntervalTier"
+        name = "WordAlign"
+        xmin = 0.0
+        xmax = 6.67
+        intervals: size = 16
+            intervals [1]:
+                xmin = 0.0
+                xmax = 0.08
+                text = "i"
+            intervals [2]:
+                xmin = 0.08
+                xmax = 0.52
+                text = "obazre"
+            intervals [3]:
+                xmin = 0.52
+                xmax = 0.71
+                text = "se"
+            intervals [4]:
+                xmin = 0.71
+                xmax = 1.06
+                text = "malo"
+            intervals [5]:
+                xmin = 1.09
+                xmax = 1.49
+                text = "okoli"
+            intervals [6]:
+                xmin = 1.49
+                xmax = 1.94
+                text = "sebe"
+            intervals [7]:
+                xmin = 2.02
+                xmax = 2.22
+                text = "po"
+            intervals [8]:
+                xmin = 2.22
+                xmax = 3.17
+                text = "geografovin"
+            intervals [9]:
+                xmin = 3.17
+                xmax = 3.78
+                text = "planetu"
+            intervals [10]:
+                xmin = 3.82
+                xmax = 4.36
+                text = "nigdar"
+            intervals [11]:
+                xmin = 4.36
+                xmax = 4.51
+                text = "ni"
+            intervals [12]:
+                xmin = 4.51
+                xmax = 4.78
+                text = "još"
+            intervals [13]:
+                xmin = 4.78
+                xmax = 5.18
+                text = "videv"
+            intervals [14]:
+                xmin = 5.18
+                xmax = 5.65
+                text = "takov"
+            intervals [15]:
+                xmin = 5.65
+                xmax = 6.3
+                text = "veličanstven"
+            intervals [16]:
+                xmin = 6.33
+                xmax = 6.67
+                text = "planet"

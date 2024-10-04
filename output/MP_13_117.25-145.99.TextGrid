@@ -4,7 +4,7 @@ Object class = "TextGrid"
 xmin = 0.0
 xmax = 28.720000000000002
 tiers? <exists>
-size = 1
+size = 2
 item []:
     item [1]:
         class = "IntervalTier"
@@ -1372,3 +1372,329 @@ item []:
                 xmin = 28.46
                 xmax = 28.72
                 text = "n_E"
+    item [1]:
+        class = "IntervalTier"
+        name = "WordAlign"
+        xmin = 0.0
+        xmax = 28.720000000000002
+        intervals: size = 80
+            intervals [1]:
+                xmin = 0.0
+                xmax = 0.15
+                text = "va"
+            intervals [2]:
+                xmin = 0.15
+                xmax = 0.71
+                text = "pedeset"
+            intervals [3]:
+                xmin = 0.71
+                xmax = 0.79
+                text = "i"
+            intervals [4]:
+                xmin = 0.79
+                xmax = 1.33
+                text = "cetiri"
+            intervals [5]:
+                xmin = 1.33
+                xmax = 1.62
+                text = "leta"
+            intervals [6]:
+                xmin = 1.62
+                xmax = 2.03
+                text = "koliko"
+            intervals [7]:
+                xmin = 2.03
+                xmax = 2.36
+                text = "zivin"
+            intervals [8]:
+                xmin = 2.36
+                xmax = 2.51
+                text = "na"
+            intervals [9]:
+                xmin = 2.51
+                xmax = 2.67
+                text = "ovoj"
+            intervals [10]:
+                xmin = 2.67
+                xmax = 3.0
+                text = "kugli"
+            intervals [11]:
+                xmin = 3.0
+                xmax = 3.69
+                text = "zemajskoj"
+            intervals [12]:
+                xmin = 3.72
+                xmax = 3.89
+                text = "su"
+            intervals [13]:
+                xmin = 3.89
+                xmax = 4.02
+                text = "me"
+            intervals [14]:
+                xmin = 4.02
+                xmax = 4.73
+                text = "skombusolali"
+            intervals [15]:
+                xmin = 4.73
+                xmax = 4.99
+                text = "samo"
+            intervals [16]:
+                xmin = 4.99
+                xmax = 5.18
+                text = "tri"
+            intervals [17]:
+                xmin = 5.18
+                xmax = 5.61
+                text = "puti"
+            intervals [18]:
+                xmin = 6.01
+                xmax = 6.33
+                text = "parvi"
+            intervals [19]:
+                xmin = 6.33
+                xmax = 6.72
+                text = "put"
+            intervals [20]:
+                xmin = 6.72
+                xmax = 6.85
+                text = "je"
+            intervals [21]:
+                xmin = 6.85
+                xmax = 6.99
+                text = "to"
+            intervals [22]:
+                xmin = 6.99
+                xmax = 7.29
+                text = "bilo"
+            intervals [23]:
+                xmin = 7.29
+                xmax = 7.47
+                text = "pred"
+            intervals [24]:
+                xmin = 7.47
+                xmax = 7.96
+                text = "dvajset"
+            intervals [25]:
+                xmin = 7.96
+                xmax = 8.03
+                text = "i"
+            intervals [26]:
+                xmin = 8.03
+                xmax = 8.25
+                text = "dva"
+            intervals [27]:
+                xmin = 8.25
+                xmax = 8.67
+                text = "leta"
+            intervals [28]:
+                xmin = 8.93
+                xmax = 9.11
+                text = "kad"
+            intervals [29]:
+                xmin = 9.11
+                xmax = 9.2
+                text = "je"
+            intervals [30]:
+                xmin = 9.2
+                xmax = 9.48
+                text = "neki"
+            intervals [31]:
+                xmin = 9.48
+                xmax = 9.9
+                text = "hrust"
+            intervals [32]:
+                xmin = 9.95
+                xmax = 10.22
+                text = "pal"
+            intervals [33]:
+                xmin = 10.3
+                xmax = 10.45
+                text = "ki"
+            intervals [34]:
+                xmin = 10.45
+                xmax = 10.59
+                text = "zna"
+            intervals [35]:
+                xmin = 10.59
+                xmax = 10.69
+                text = "od"
+            intervals [36]:
+                xmin = 10.69
+                xmax = 11.11
+                text = "kede"
+            intervals [37]:
+                xmin = 11.56
+                xmax = 11.89
+                text = "toliko"
+            intervals [38]:
+                xmin = 11.89
+                xmax = 11.96
+                text = "je"
+            intervals [39]:
+                xmin = 11.96
+                xmax = 12.63
+                text = "vriskal"
+            intervals [40]:
+                xmin = 12.74
+                xmax = 12.87
+                text = "da"
+            intervals [41]:
+                xmin = 12.87
+                xmax = 13.04
+                text = "son"
+            intervals [42]:
+                xmin = 13.04
+                xmax = 13.48
+                text = "cetiri"
+            intervals [43]:
+                xmin = 13.48
+                xmax = 13.83
+                text = "puti"
+            intervals [44]:
+                xmin = 13.83
+                xmax = 14.14
+                text = "krivo"
+            intervals [45]:
+                xmin = 14.14
+                xmax = 14.69
+                text = "racunal"
+            intervals [46]:
+                xmin = 15.33
+                xmax = 15.65
+                text = "drugi"
+            intervals [47]:
+                xmin = 15.65
+                xmax = 15.93
+                text = "put"
+            intervals [48]:
+                xmin = 15.93
+                xmax = 16.03
+                text = "je"
+            intervals [49]:
+                xmin = 16.03
+                xmax = 16.17
+                text = "to"
+            intervals [50]:
+                xmin = 16.17
+                xmax = 16.47
+                text = "bilo"
+            intervals [51]:
+                xmin = 16.47
+                xmax = 16.66
+                text = "pred"
+            intervals [52]:
+                xmin = 16.66
+                xmax = 17.19
+                text = "jedanajst"
+            intervals [53]:
+                xmin = 17.19
+                xmax = 17.55
+                text = "let"
+            intervals [54]:
+                xmin = 17.7
+                xmax = 17.9
+                text = "kad"
+            intervals [55]:
+                xmin = 17.9
+                xmax = 18.07
+                text = "su"
+            intervals [56]:
+                xmin = 18.07
+                xmax = 18.21
+                text = "me"
+            intervals [57]:
+                xmin = 18.21
+                xmax = 18.59
+                text = "bolele"
+            intervals [58]:
+                xmin = 18.59
+                xmax = 19.1
+                text = "kosti"
+            intervals [59]:
+                xmin = 19.59
+                xmax = 20.03
+                text = "premalo"
+            intervals [60]:
+                xmin = 20.03
+                xmax = 20.6
+                text = "hodin"
+            intervals [61]:
+                xmin = 20.77
+                xmax = 21.09
+                text = "niman"
+            intervals [62]:
+                xmin = 21.09
+                xmax = 21.49
+                text = "lazno"
+            intervals [63]:
+                xmin = 21.49
+                xmax = 21.63
+                text = "za"
+            intervals [64]:
+                xmin = 21.63
+                xmax = 22.23
+                text = "hodit"
+            intervals [65]:
+                xmin = 22.49
+                xmax = 22.68
+                text = "ja"
+            intervals [66]:
+                xmin = 22.68
+                xmax = 22.85
+                text = "son"
+            intervals [67]:
+                xmin = 22.85
+                xmax = 23.07
+                text = "vero"
+            intervals [68]:
+                xmin = 23.07
+                xmax = 23.41
+                text = "seriji"
+            intervals [69]:
+                xmin = 23.47
+                xmax = 23.93
+                text = "covek"
+            intervals [70]:
+                xmin = 24.43
+                xmax = 24.61
+                text = "i"
+            intervals [71]:
+                xmin = 24.61
+                xmax = 24.8
+                text = "evo"
+            intervals [72]:
+                xmin = 24.8
+                xmax = 25.07
+                text = "sad"
+            intervals [73]:
+                xmin = 25.07
+                xmax = 25.4
+                text = "treti"
+            intervals [74]:
+                xmin = 25.4
+                xmax = 25.76
+                text = "put"
+            intervals [75]:
+                xmin = 26.26
+                xmax = 26.54
+                text = "kako"
+            intervals [76]:
+                xmin = 26.54
+                xmax = 26.72
+                text = "son"
+            intervals [77]:
+                xmin = 26.72
+                xmax = 27.16
+                text = "rekal"
+            intervals [78]:
+                xmin = 27.49
+                xmax = 27.91
+                text = "pesto"
+            intervals [79]:
+                xmin = 27.91
+                xmax = 28.23
+                text = "jedan"
+            intervals [80]:
+                xmin = 28.23
+                xmax = 28.72
+                text = "mijun"

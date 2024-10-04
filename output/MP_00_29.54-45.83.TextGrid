@@ -4,7 +4,7 @@ Object class = "TextGrid"
 xmin = 0.0
 xmax = 16.27
 tiers? <exists>
-size = 1
+size = 2
 item []:
     item [1]:
         class = "IntervalTier"
@@ -624,3 +624,133 @@ item []:
                 xmin = 16.2
                 xmax = 16.27
                 text = "u_E"
+    item [1]:
+        class = "IntervalTier"
+        name = "WordAlign"
+        xmin = 0.0
+        xmax = 16.27
+        intervals: size = 31
+            intervals [1]:
+                xmin = 0.03
+                xmax = 0.47
+                text = "antoine"
+            intervals [2]:
+                xmin = 0.57
+                xmax = 0.7
+                text = "de"
+            intervals [3]:
+                xmin = 0.7
+                xmax = 1.71
+                text = "sainteksuperi"
+            intervals [4]:
+                xmin = 3.08
+                xmax = 3.47
+                text = "mići"
+            intervals [5]:
+                xmin = 3.47
+                xmax = 3.84
+                text = "princ"
+            intervals [6]:
+                xmin = 5.25
+                xmax = 5.52
+                text = "neka"
+            intervals [7]:
+                xmin = 5.52
+                xmax = 5.67
+                text = "mi"
+            intervals [8]:
+                xmin = 5.67
+                xmax = 6.18
+                text = "dica"
+            intervals [9]:
+                xmin = 6.21
+                xmax = 6.87
+                text = "oproste"
+            intervals [10]:
+                xmin = 7.09
+                xmax = 7.2
+                text = "ča"
+            intervals [11]:
+                xmin = 7.2
+                xmax = 7.43
+                text = "san"
+            intervals [12]:
+                xmin = 7.43
+                xmax = 7.66
+                text = "ovu"
+            intervals [13]:
+                xmin = 7.66
+                xmax = 7.99
+                text = "knjigu"
+            intervals [14]:
+                xmin = 7.99
+                xmax = 8.7
+                text = "posvetiv"
+            intervals [15]:
+                xmin = 9.02
+                xmax = 9.62
+                text = "jenimu"
+            intervals [16]:
+                xmin = 9.67
+                xmax = 10.24
+                text = "velimu"
+            intervals [17]:
+                xmin = 10.24
+                xmax = 11.12
+                text = "čoviku"
+            intervals [18]:
+                xmin = 11.41
+                xmax = 11.69
+                text = "man"
+            intervals [19]:
+                xmin = 11.69
+                xmax = 11.83
+                text = "za"
+            intervals [20]:
+                xmin = 11.83
+                xmax = 12.0
+                text = "to"
+            intervals [21]:
+                xmin = 12.22
+                xmax = 12.53
+                text = "jenu"
+            intervals [22]:
+                xmin = 12.53
+                xmax = 12.87
+                text = "dobru"
+            intervals [23]:
+                xmin = 12.87
+                xmax = 13.42
+                text = "skužu"
+            intervals [24]:
+                xmin = 13.63
+                xmax = 13.8
+                text = "on"
+            intervals [25]:
+                xmin = 13.8
+                xmax = 13.89
+                text = "je"
+            intervals [26]:
+                xmin = 13.89
+                xmax = 14.52
+                text = "najboji"
+            intervals [27]:
+                xmin = 14.6
+                xmax = 15.19
+                text = "prijatej"
+            intervals [28]:
+                xmin = 15.19
+                xmax = 15.47
+                text = "kiga"
+            intervals [29]:
+                xmin = 15.47
+                xmax = 15.68
+                text = "man"
+            intervals [30]:
+                xmin = 15.68
+                xmax = 15.79
+                text = "na"
+            intervals [31]:
+                xmin = 15.79
+                xmax = 16.27
+                text = "svitu"

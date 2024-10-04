@@ -4,7 +4,7 @@ Object class = "TextGrid"
 xmin = 0.0
 xmax = 7.89
 tiers? <exists>
-size = 1
+size = 2
 item []:
     item [1]:
         class = "IntervalTier"
@@ -280,3 +280,65 @@ item []:
                 xmin = 7.77
                 xmax = 7.89
                 text = "k_E"
+    item [1]:
+        class = "IntervalTier"
+        name = "WordAlign"
+        xmin = 0.0
+        xmax = 7.89
+        intervals: size = 14
+            intervals [1]:
+                xmin = 0.03
+                xmax = 1.23
+                text = "kratkotrajno"
+            intervals [2]:
+                xmin = 1.23
+                xmax = 1.67
+                text = "to"
+            intervals [3]:
+                xmin = 1.67
+                xmax = 1.91
+                text = "ti"
+            intervals [4]:
+                xmin = 1.91
+                xmax = 2.44
+                text = "znači"
+            intervals [5]:
+                xmin = 2.44
+                xmax = 2.87
+                text = "ono"
+            intervals [6]:
+                xmin = 3.15
+                xmax = 3.48
+                text = "čemu"
+            intervals [7]:
+                xmin = 3.48
+                xmax = 4.05
+                text = "jednoga"
+            intervals [8]:
+                xmin = 4.05
+                xmax = 4.6
+                text = "dana"
+            intervals [9]:
+                xmin = 4.6
+                xmax = 4.73
+                text = "i"
+            intervals [10]:
+                xmin = 4.73
+                xmax = 4.93
+                text = "to"
+            intervals [11]:
+                xmin = 4.93
+                xmax = 5.38
+                text = "skoro"
+            intervals [12]:
+                xmin = 5.38
+                xmax = 5.73
+                text = "će"
+            intervals [13]:
+                xmin = 5.98
+                xmax = 6.76
+                text = "arivat"
+            intervals [14]:
+                xmin = 7.12
+                xmax = 7.89
+                text = "nestanak"

@@ -4,7 +4,7 @@ Object class = "TextGrid"
 xmin = 0.0
 xmax = 15.809999999999999
 tiers? <exists>
-size = 1
+size = 2
 item []:
     item [1]:
         class = "IntervalTier"
@@ -728,3 +728,185 @@ item []:
                 xmin = 15.78
                 xmax = 15.81
                 text = "sp"
+    item [1]:
+        class = "IntervalTier"
+        name = "WordAlign"
+        xmin = 0.0
+        xmax = 15.809999999999999
+        intervals: size = 44
+            intervals [1]:
+                xmin = 0.0
+                xmax = 0.13
+                text = "to"
+            intervals [2]:
+                xmin = 0.13
+                xmax = 0.25
+                text = "je"
+            intervals [3]:
+                xmin = 0.25
+                xmax = 0.52
+                text = "jako"
+            intervals [4]:
+                xmin = 0.52
+                xmax = 1.16
+                text = "štentljivo"
+            intervals [5]:
+                xmin = 1.19
+                xmax = 1.68
+                text = "ali"
+            intervals [6]:
+                xmin = 1.76
+                xmax = 2.01
+                text = "i"
+            intervals [7]:
+                xmin = 2.01
+                xmax = 2.31
+                text = "jako"
+            intervals [8]:
+                xmin = 2.31
+                xmax = 2.83
+                text = "lahko"
+            intervals [9]:
+                xmin = 3.11
+                xmax = 3.31
+                text = "i"
+            intervals [10]:
+                xmin = 3.45
+                xmax = 3.76
+                text = "jeniga"
+            intervals [11]:
+                xmin = 3.76
+                xmax = 3.93
+                text = "mi"
+            intervals [12]:
+                xmin = 3.93
+                xmax = 4.03
+                text = "je"
+            intervals [13]:
+                xmin = 4.03
+                xmax = 4.41
+                text = "dana"
+            intervals [14]:
+                xmin = 4.41
+                xmax = 5.05
+                text = "ordinav"
+            intervals [15]:
+                xmin = 5.34
+                xmax = 5.46
+                text = "da"
+            intervals [16]:
+                xmin = 5.46
+                xmax = 5.61
+                text = "se"
+            intervals [17]:
+                xmin = 5.61
+                xmax = 5.86
+                text = "malo"
+            intervals [18]:
+                xmin = 5.86
+                xmax = 6.17
+                text = "više"
+            intervals [19]:
+                xmin = 6.17
+                xmax = 6.8
+                text = "potrsin"
+            intervals [20]:
+                xmin = 6.98
+                xmax = 7.17
+                text = "i"
+            intervals [21]:
+                xmin = 7.17
+                xmax = 7.5
+                text = "lipo"
+            intervals [22]:
+                xmin = 7.5
+                xmax = 7.96
+                text = "narišen"
+            intervals [23]:
+                xmin = 7.96
+                xmax = 8.45
+                text = "sliku"
+            intervals [24]:
+                xmin = 8.61
+                xmax = 8.9
+                text = "kako"
+            intervals [25]:
+                xmin = 8.9
+                xmax = 9.13
+                text = "bin"
+            intervals [26]:
+                xmin = 9.13
+                xmax = 9.28
+                text = "to"
+            intervals [27]:
+                xmin = 9.28
+                xmax = 9.63
+                text = "dici"
+            intervals [28]:
+                xmin = 9.63
+                xmax = 10.08
+                text = "staviv"
+            intervals [29]:
+                xmin = 10.08
+                xmax = 10.21
+                text = "va"
+            intervals [30]:
+                xmin = 10.21
+                xmax = 10.64
+                text = "glavu"
+            intervals [31]:
+                xmin = 10.95
+                xmax = 11.12
+                text = "ko"
+            intervals [32]:
+                xmin = 11.12
+                xmax = 11.35
+                text = "bi"
+            intervals [33]:
+                xmin = 11.47
+                xmax = 11.75
+                text = "jeniga"
+            intervals [34]:
+                xmin = 11.75
+                xmax = 12.05
+                text = "dana"
+            intervals [35]:
+                xmin = 12.05
+                xmax = 12.28
+                text = "šli"
+            intervals [36]:
+                xmin = 12.28
+                xmax = 12.42
+                text = "va"
+            intervals [37]:
+                xmin = 12.42
+                xmax = 13.15
+                text = "svit"
+            intervals [38]:
+                xmin = 13.6
+                xmax = 13.8
+                text = "to"
+            intervals [39]:
+                xmin = 13.8
+                xmax = 13.98
+                text = "bi"
+            intervals [40]:
+                xmin = 13.98
+                xmax = 14.09
+                text = "jin"
+            intervals [41]:
+                xmin = 14.38
+                xmax = 14.77
+                text = "moglo"
+            intervals [42]:
+                xmin = 14.77
+                xmax = 15.05
+                text = "bit"
+            intervals [43]:
+                xmin = 15.05
+                xmax = 15.17
+                text = "od"
+            intervals [44]:
+                xmin = 15.17
+                xmax = 15.78
+                text = "koristi"

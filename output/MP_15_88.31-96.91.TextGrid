@@ -4,7 +4,7 @@ Object class = "TextGrid"
 xmin = 0.0
 xmax = 8.58
 tiers? <exists>
-size = 1
+size = 2
 item []:
     item [1]:
         class = "IntervalTier"
@@ -268,3 +268,69 @@ item []:
                 xmin = 8.44
                 xmax = 8.58
                 text = "e_E"
+    item [1]:
+        class = "IntervalTier"
+        name = "WordAlign"
+        xmin = 0.0
+        xmax = 8.58
+        intervals: size = 15
+            intervals [1]:
+                xmin = 0.07
+                xmax = 0.42
+                text = "to"
+            intervals [2]:
+                xmin = 0.42
+                xmax = 0.8
+                text = "je"
+            intervals [3]:
+                xmin = 0.83
+                xmax = 1.49
+                text = "učeni"
+            intervals [4]:
+                xmin = 1.49
+                xmax = 1.96
+                text = "čovik"
+            intervals [5]:
+                xmin = 1.99
+                xmax = 2.22
+                text = "ki"
+            intervals [6]:
+                xmin = 2.22
+                xmax = 2.57
+                text = "zna"
+            intervals [7]:
+                xmin = 2.57
+                xmax = 2.99
+                text = "kadi"
+            intervals [8]:
+                xmin = 2.99
+                xmax = 3.19
+                text = "su"
+            intervals [9]:
+                xmin = 3.19
+                xmax = 3.84
+                text = "mora"
+            intervals [10]:
+                xmin = 4.13
+                xmax = 5.06
+                text = "rike"
+            intervals [11]:
+                xmin = 5.3
+                xmax = 5.62
+                text = "veli"
+            intervals [12]:
+                xmin = 5.62
+                xmax = 6.28
+                text = "gradi"
+            intervals [13]:
+                xmin = 6.54
+                xmax = 7.26
+                text = "planine"
+            intervals [14]:
+                xmin = 7.57
+                xmax = 7.78
+                text = "i"
+            intervals [15]:
+                xmin = 7.78
+                xmax = 8.58
+                text = "pustinje"

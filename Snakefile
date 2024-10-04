@@ -47,7 +47,8 @@ rule do_kaldi:
         wavscp="tmp/{file}.wav.scp",
     output:
         temp(directory("tmp/{file}")),
-        temp("tmp/{file}/trans_phones_with_symbols.ctm")
+        temp("tmp/{file}/trans_phones_with_symbols.ctm"),
+        temp("tmp/{file}/ali.ctm")
     shell:
         """
         wavscp={input.wavscp}
@@ -82,6 +83,7 @@ rule do_kaldi:
 rule do_tg_compilation:
     input:
         alignment = "tmp/{file}/trans_phones_with_symbols.ctm",
+        wordalignment = "tmp/{file}/ali.ctm",
         thedir = "tmp/{file}"
     output:
         "output/{file}.TextGrid"

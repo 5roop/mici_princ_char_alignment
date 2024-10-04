@@ -4,7 +4,7 @@ Object class = "TextGrid"
 xmin = 0.0
 xmax = 8.549999999999999
 tiers? <exists>
-size = 1
+size = 2
 item []:
     item [1]:
         class = "IntervalTier"
@@ -376,3 +376,89 @@ item []:
                 xmin = 8.52
                 xmax = 8.55
                 text = "sp"
+    item [1]:
+        class = "IntervalTier"
+        name = "WordAlign"
+        xmin = 0.0
+        xmax = 8.549999999999999
+        intervals: size = 20
+            intervals [1]:
+                xmin = 0.0
+                xmax = 0.31
+                text = "tako"
+            intervals [2]:
+                xmin = 0.31
+                xmax = 0.65
+                text = "san"
+            intervals [3]:
+                xmin = 0.75
+                xmax = 1.26
+                text = "jušto"
+            intervals [4]:
+                xmin = 1.45
+                xmax = 1.84
+                text = "treti"
+            intervals [5]:
+                xmin = 1.84
+                xmax = 2.26
+                text = "dan"
+            intervals [6]:
+                xmin = 2.29
+                xmax = 2.93
+                text = "saznav"
+            intervals [7]:
+                xmin = 2.93
+                xmax = 3.36
+                text = "jako"
+            intervals [8]:
+                xmin = 3.36
+                xmax = 4.03
+                text = "zanimjivu"
+            intervals [9]:
+                xmin = 4.03
+                xmax = 4.68
+                text = "štoriju"
+            intervals [10]:
+                xmin = 4.75
+                xmax = 4.9
+                text = "o"
+            intervals [11]:
+                xmin = 4.9
+                xmax = 5.35
+                text = "nikimi"
+            intervals [12]:
+                xmin = 5.35
+                xmax = 5.85
+                text = "drvi"
+            intervals [13]:
+                xmin = 5.93
+                xmax = 6.12
+                text = "za"
+            intervals [14]:
+                xmin = 6.12
+                xmax = 6.35
+                text = "ke"
+            intervals [15]:
+                xmin = 6.38
+                xmax = 6.44
+                text = "je"
+            intervals [16]:
+                xmin = 6.44
+                xmax = 6.94
+                text = "rekav"
+            intervals [17]:
+                xmin = 6.97
+                xmax = 7.12
+                text = "da"
+            intervals [18]:
+                xmin = 7.12
+                xmax = 7.31
+                text = "se"
+            intervals [19]:
+                xmin = 7.31
+                xmax = 7.76
+                text = "zovu"
+            intervals [20]:
+                xmin = 7.76
+                xmax = 8.52
+                text = "baobabi"

@@ -4,7 +4,7 @@ Object class = "TextGrid"
 xmin = 0.0
 xmax = 8.53
 tiers? <exists>
-size = 1
+size = 2
 item []:
     item [1]:
         class = "IntervalTier"
@@ -388,3 +388,93 @@ item []:
                 xmin = 8.5
                 xmax = 8.53
                 text = "sp"
+    item [1]:
+        class = "IntervalTier"
+        name = "WordAlign"
+        xmin = 0.0
+        xmax = 8.53
+        intervals: size = 21
+            intervals [1]:
+                xmin = 0.03
+                xmax = 0.41
+                text = "ovi"
+            intervals [2]:
+                xmin = 0.41
+                xmax = 0.64
+                text = "je"
+            intervals [3]:
+                xmin = 0.64
+                xmax = 1.08
+                text = "jedini"
+            intervals [4]:
+                xmin = 1.08
+                xmax = 1.14
+                text = "s"
+            intervals [5]:
+                xmin = 1.14
+                xmax = 1.42
+                text = "kogu"
+            intervals [6]:
+                xmin = 1.42
+                xmax = 1.61
+                text = "bin"
+            intervals [7]:
+                xmin = 1.61
+                xmax = 1.78
+                text = "se"
+            intervals [8]:
+                xmin = 1.78
+                xmax = 2.08
+                text = "mogav"
+            intervals [9]:
+                xmin = 2.08
+                xmax = 3.02
+                text = "sprijatejit"
+            intervals [10]:
+                xmin = 3.53
+                xmax = 4.17
+                text = "magari"
+            intervals [11]:
+                xmin = 4.63
+                xmax = 4.96
+                text = "njigov"
+            intervals [12]:
+                xmin = 4.96
+                xmax = 5.36
+                text = "planet"
+            intervals [13]:
+                xmin = 5.36
+                xmax = 5.46
+                text = "je"
+            intervals [14]:
+                xmin = 5.46
+                xmax = 5.96
+                text = "zaspraven"
+            intervals [15]:
+                xmin = 5.96
+                xmax = 6.44
+                text = "mićeri"
+            intervals [16]:
+                xmin = 7.16
+                xmax = 7.33
+                text = "na"
+            intervals [17]:
+                xmin = 7.33
+                xmax = 7.58
+                text = "njin"
+            intervals [18]:
+                xmin = 7.58
+                xmax = 7.72
+                text = "ni"
+            intervals [19]:
+                xmin = 7.72
+                xmax = 8.13
+                text = "mista"
+            intervals [20]:
+                xmin = 8.13
+                xmax = 8.24
+                text = "za"
+            intervals [21]:
+                xmin = 8.24
+                xmax = 8.5
+                text = "dva"

@@ -4,7 +4,7 @@ Object class = "TextGrid"
 xmin = 0.0
 xmax = 0.97
 tiers? <exists>
-size = 1
+size = 2
 item []:
     item [1]:
         class = "IntervalTier"
@@ -68,3 +68,21 @@ item []:
                 xmin = 0.94
                 xmax = 0.97
                 text = "sp"
+    item [1]:
+        class = "IntervalTier"
+        name = "WordAlign"
+        xmin = 0.0
+        xmax = 0.97
+        intervals: size = 3
+            intervals [1]:
+                xmin = 0.0
+                xmax = 0.4
+                text = "zvizde"
+            intervals [2]:
+                xmin = 0.4
+                xmax = 0.56
+                text = "su"
+            intervals [3]:
+                xmin = 0.56
+                xmax = 0.94
+                text = "tvoje"

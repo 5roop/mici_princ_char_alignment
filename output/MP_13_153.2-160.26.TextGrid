@@ -4,7 +4,7 @@ Object class = "TextGrid"
 xmin = 0.0
 xmax = 7.04
 tiers? <exists>
-size = 1
+size = 2
 item []:
     item [1]:
         class = "IntervalTier"
@@ -364,3 +364,85 @@ item []:
                 xmin = 6.94
                 xmax = 7.04
                 text = "t_E"
+    item [1]:
+        class = "IntervalTier"
+        name = "WordAlign"
+        xmin = 0.0
+        xmax = 7.04
+        intervals: size = 19
+            intervals [1]:
+                xmin = 0.0
+                xmax = 0.46
+                text = "ne"
+            intervals [2]:
+                xmin = 0.91
+                xmax = 1.24
+                text = "onih"
+            intervals [3]:
+                xmin = 1.24
+                xmax = 1.61
+                text = "zlatnih"
+            intervals [4]:
+                xmin = 1.61
+                xmax = 2.0
+                text = "stvarcic"
+            intervals [5]:
+                xmin = 2.08
+                xmax = 2.14
+                text = "o"
+            intervals [6]:
+                xmin = 2.14
+                xmax = 2.38
+                text = "kima"
+            intervals [7]:
+                xmin = 2.38
+                xmax = 2.8
+                text = "sanjaju"
+            intervals [8]:
+                xmin = 2.8
+                xmax = 3.56
+                text = "niškoristi"
+            intervals [9]:
+                xmin = 3.96
+                xmax = 4.09
+                text = "ma"
+            intervals [10]:
+                xmin = 4.09
+                xmax = 4.22
+                text = "ja"
+            intervals [11]:
+                xmin = 4.22
+                xmax = 4.4
+                text = "son"
+            intervals [12]:
+                xmin = 4.4
+                xmax = 4.62
+                text = "vero"
+            intervals [13]:
+                xmin = 4.62
+                xmax = 4.98
+                text = "seriji"
+            intervals [14]:
+                xmin = 5.05
+                xmax = 5.43
+                text = "covek"
+            intervals [15]:
+                xmin = 5.62
+                xmax = 5.8
+                text = "ja"
+            intervals [16]:
+                xmin = 5.8
+                xmax = 6.06
+                text = "niman"
+            intervals [17]:
+                xmin = 6.06
+                xmax = 6.38
+                text = "lazno"
+            intervals [18]:
+                xmin = 6.38
+                xmax = 6.5
+                text = "za"
+            intervals [19]:
+                xmin = 6.5
+                xmax = 7.04
+                text = "sanjat"
