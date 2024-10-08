@@ -8,7 +8,7 @@ size = 2
 item []:
     item [1]:
         class = "IntervalTier"
-        name = "CharAlign"
+        name = "PhonAlign"
         xmin = 0.0
         xmax = 18.060000000000002
         intervals: size = 152
@@ -625,7 +625,7 @@ item []:
         name = "WordAlign"
         xmin = 0.0
         xmax = 18.060000000000002
-        intervals: size = 37
+        intervals: size = 45
             intervals [1]:
                 xmin = 0.03
                 xmax = 0.17
@@ -647,130 +647,162 @@ item []:
                 xmax = 1.54
                 text = "tigri"
             intervals [6]:
+                xmin = 1.54
+                xmax = 2.01
+                text = ""
+            intervals [7]:
                 xmin = 2.01
                 xmax = 2.14
                 text = "a"
-            intervals [7]:
+            intervals [8]:
                 xmin = 2.14
                 xmax = 2.34
                 text = "se"
-            intervals [8]:
+            intervals [9]:
                 xmin = 2.34
                 xmax = 2.47
                 text = "ča"
-            intervals [9]:
+            intervals [10]:
                 xmin = 2.47
                 xmax = 2.53
                 text = "j"
-            intervals [10]:
+            intervals [11]:
                 xmin = 2.53
                 xmax = 3.04
                 text = "pravo"
-            intervals [11]:
+            intervals [12]:
+                xmin = 3.04
+                xmax = 3.21
+                text = ""
+            intervals [13]:
                 xmin = 3.21
                 xmax = 3.5
                 text = "oni"
-            intervals [12]:
+            intervals [14]:
                 xmin = 3.5
                 xmax = 3.67
                 text = "ne"
-            intervals [13]:
+            intervals [15]:
                 xmin = 3.67
                 xmax = 3.91
                 text = "jidu"
-            intervals [14]:
+            intervals [16]:
                 xmin = 3.91
                 xmax = 4.45
                 text = "travu"
-            intervals [15]:
+            intervals [17]:
+                xmin = 4.45
+                xmax = 5.04
+                text = ""
+            intervals [18]:
                 xmin = 5.04
                 xmax = 5.72
                 text = "ja"
-            intervals [16]:
+            intervals [19]:
                 xmin = 5.72
                 xmax = 6.26
                 text = "nisan"
-            intervals [17]:
+            intervals [20]:
                 xmin = 6.26
                 xmax = 6.69
                 text = "trava"
-            intervals [18]:
+            intervals [21]:
+                xmin = 6.69
+                xmax = 7.92
+                text = ""
+            intervals [22]:
                 xmin = 7.92
                 xmax = 8.61
                 text = "oprostite"
-            intervals [19]:
+            intervals [23]:
+                xmin = 8.61
+                xmax = 10.01
+                text = ""
+            intervals [24]:
                 xmin = 10.01
                 xmax = 10.23
                 text = "ja"
-            intervals [20]:
+            intervals [25]:
                 xmin = 10.23
                 xmax = 10.4
                 text = "se"
-            intervals [21]:
+            intervals [26]:
                 xmin = 10.4
                 xmax = 10.51
                 text = "ne"
-            intervals [22]:
+            intervals [27]:
                 xmin = 10.51
                 xmax = 10.98
                 text = "bojin"
-            intervals [23]:
+            intervals [28]:
                 xmin = 10.98
                 xmax = 11.54
                 text = "tigri"
-            intervals [24]:
+            intervals [29]:
+                xmin = 11.54
+                xmax = 11.87
+                text = ""
+            intervals [30]:
                 xmin = 11.87
                 xmax = 12.13
                 text = "ma"
-            intervals [25]:
+            intervals [31]:
                 xmin = 12.13
                 xmax = 12.24
                 text = "me"
-            intervals [26]:
+            intervals [32]:
                 xmin = 12.24
                 xmax = 12.85
                 text = "srhi"
-            intervals [27]:
+            intervals [33]:
                 xmin = 12.85
                 xmax = 13.6
                 text = "prohajaju"
-            intervals [28]:
+            intervals [34]:
                 xmin = 13.6
                 xmax = 13.72
                 text = "na"
-            intervals [29]:
+            intervals [35]:
                 xmin = 13.72
                 xmax = 14.33
                 text = "propuh"
-            intervals [30]:
+            intervals [36]:
+                xmin = 14.33
+                xmax = 14.91
+                text = ""
+            intervals [37]:
                 xmin = 14.91
                 xmax = 15.03
                 text = "ča"
-            intervals [31]:
+            intervals [38]:
                 xmin = 15.03
                 xmax = 15.17
                 text = "me"
-            intervals [32]:
+            intervals [39]:
                 xmin = 15.17
                 xmax = 15.58
                 text = "nimate"
-            intervals [33]:
+            intervals [40]:
                 xmin = 15.58
                 xmax = 15.9
                 text = "kamo"
-            intervals [34]:
+            intervals [41]:
                 xmin = 15.9
                 xmax = 16.5
                 text = "skrit"
-            intervals [35]:
+            intervals [42]:
+                xmin = 16.5
+                xmax = 17.05
+                text = ""
+            intervals [43]:
                 xmin = 17.05
                 xmax = 17.3
                 text = "boji"
-            intervals [36]:
+            intervals [44]:
                 xmin = 17.3
                 xmax = 17.49
                 text = "se"
-            intervals [37]:
+            intervals [45]:
                 xmin = 17.49
                 xmax = 18.06
                 text = "propuha"

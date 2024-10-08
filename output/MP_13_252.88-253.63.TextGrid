@@ -8,7 +8,7 @@ size = 2
 item []:
     item [1]:
         class = "IntervalTier"
-        name = "CharAlign"
+        name = "PhonAlign"
         xmin = 0.0
         xmax = 0.7300000000000001
         intervals: size = 13
@@ -69,7 +69,7 @@ item []:
         name = "WordAlign"
         xmin = 0.0
         xmax = 0.7300000000000001
-        intervals: size = 4
+        intervals: size = 5
             intervals [1]:
                 xmin = 0.0
                 xmax = 0.13
@@ -83,6 +83,10 @@ item []:
                 xmax = 0.43
                 text = "to"
             intervals [4]:
+                xmin = 0.43
+                xmax = 0.48
+                text = ""
+            intervals [5]:
                 xmin = 0.48
                 xmax = 0.73
                 text = "reć"

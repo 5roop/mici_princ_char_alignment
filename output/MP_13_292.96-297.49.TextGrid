@@ -8,7 +8,7 @@ size = 2
 item []:
     item [1]:
         class = "IntervalTier"
-        name = "CharAlign"
+        name = "PhonAlign"
         xmin = 0.0
         xmax = 4.51
         intervals: size = 54
@@ -233,7 +233,7 @@ item []:
         name = "WordAlign"
         xmin = 0.0
         xmax = 4.51
-        intervals: size = 13
+        intervals: size = 15
             intervals [1]:
                 xmin = 0.03
                 xmax = 0.57
@@ -247,42 +247,50 @@ item []:
                 xmax = 1.43
                 text = "usta"
             intervals [4]:
+                xmin = 1.43
+                xmax = 1.51
+                text = ""
+            intervals [5]:
                 xmin = 1.51
                 xmax = 1.79
                 text = "ali"
-            intervals [5]:
+            intervals [6]:
                 xmin = 1.79
                 xmax = 1.95
                 text = "ni"
-            intervals [6]:
+            intervals [7]:
                 xmin = 1.95
                 xmax = 2.28
                 text = "znav"
-            intervals [7]:
+            intervals [8]:
                 xmin = 2.28
                 xmax = 2.47
                 text = "ča"
-            intervals [8]:
+            intervals [9]:
                 xmin = 2.47
                 xmax = 2.59
                 text = "bi"
-            intervals [9]:
+            intervals [10]:
                 xmin = 2.59
                 xmax = 2.97
                 text = "rekav"
-            intervals [10]:
+            intervals [11]:
+                xmin = 2.97
+                xmax = 3.31
+                text = ""
+            intervals [12]:
                 xmin = 3.31
                 xmax = 3.45
                 text = "i"
-            intervals [11]:
+            intervals [13]:
                 xmin = 3.45
                 xmax = 3.72
                 text = "mići"
-            intervals [12]:
+            intervals [14]:
                 xmin = 3.72
                 xmax = 4.02
                 text = "princ"
-            intervals [13]:
+            intervals [15]:
                 xmin = 4.02
                 xmax = 4.51
                 text = "pobigne"

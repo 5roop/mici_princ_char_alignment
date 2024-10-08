@@ -8,7 +8,7 @@ size = 2
 item []:
     item [1]:
         class = "IntervalTier"
-        name = "CharAlign"
+        name = "PhonAlign"
         xmin = 0.0
         xmax = 7.75
         intervals: size = 82
@@ -345,7 +345,7 @@ item []:
         name = "WordAlign"
         xmin = 0.0
         xmax = 7.75
-        intervals: size = 16
+        intervals: size = 19
             intervals [1]:
                 xmin = 0.03
                 xmax = 0.48
@@ -375,38 +375,50 @@ item []:
                 xmax = 2.34
                 text = "udelal"
             intervals [8]:
+                xmin = 2.34
+                xmax = 2.89
+                text = ""
+            intervals [9]:
                 xmin = 2.89
                 xmax = 3.25
                 text = "čuvaj"
-            intervals [9]:
+            intervals [10]:
                 xmin = 3.25
                 xmax = 3.5
                 text = "svoj"
-            intervals [10]:
+            intervals [11]:
                 xmin = 3.5
                 xmax = 4.17
                 text = "šipak"
-            intervals [11]:
+            intervals [12]:
+                xmin = 4.17
+                xmax = 4.57
+                text = ""
+            intervals [13]:
                 xmin = 4.57
                 xmax = 4.95
                 text = "ja"
-            intervals [12]:
+            intervals [14]:
                 xmin = 4.95
                 xmax = 5.4
                 text = "san"
-            intervals [13]:
+            intervals [15]:
+                xmin = 5.4
+                xmax = 5.5
+                text = ""
+            intervals [16]:
                 xmin = 5.5
                 xmax = 6.49
                 text = "odgovoran"
-            intervals [14]:
+            intervals [17]:
                 xmin = 6.49
                 xmax = 6.67
                 text = "za"
-            intervals [15]:
+            intervals [18]:
                 xmin = 6.67
                 xmax = 7.12
                 text = "svoj"
-            intervals [16]:
+            intervals [19]:
                 xmin = 7.12
                 xmax = 7.75
                 text = "šipak"

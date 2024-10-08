@@ -8,7 +8,7 @@ size = 2
 item []:
     item [1]:
         class = "IntervalTier"
-        name = "CharAlign"
+        name = "PhonAlign"
         xmin = 0.0
         xmax = 18.46
         intervals: size = 169
@@ -693,168 +693,224 @@ item []:
         name = "WordAlign"
         xmin = 0.0
         xmax = 18.46
-        intervals: size = 41
+        intervals: size = 55
             intervals [1]:
                 xmin = 0.03
                 xmax = 0.39
                 text = "ne"
             intervals [2]:
+                xmin = 0.39
+                xmax = 0.74
+                text = ""
+            intervals [3]:
                 xmin = 0.74
                 xmax = 1.03
                 text = "to"
-            intervals [3]:
+            intervals [4]:
                 xmin = 1.03
                 xmax = 1.2
                 text = "je"
-            intervals [4]:
+            intervals [5]:
                 xmin = 1.2
                 xmax = 1.75
                 text = "teško"
-            intervals [5]:
+            intervals [6]:
+                xmin = 1.75
+                xmax = 2.15
+                text = ""
+            intervals [7]:
                 xmin = 2.15
                 xmax = 2.37
                 text = "ma"
-            intervals [6]:
+            intervals [8]:
                 xmin = 2.37
                 xmax = 2.59
                 text = "se"
-            intervals [7]:
+            intervals [9]:
                 xmin = 2.59
                 xmax = 3.1
                 text = "zato"
-            intervals [8]:
+            intervals [10]:
+                xmin = 3.1
+                xmax = 3.13
+                text = ""
+            intervals [11]:
                 xmin = 3.13
                 xmax = 3.36
                 text = "od"
-            intervals [9]:
+            intervals [12]:
+                xmin = 3.36
+                xmax = 3.43
+                text = ""
+            intervals [13]:
                 xmin = 3.43
                 xmax = 4.46
                 text = "istraživača"
-            intervals [10]:
+            intervals [14]:
                 xmin = 4.46
                 xmax = 4.85
                 text = "išće"
-            intervals [11]:
+            intervals [15]:
                 xmin = 4.85
                 xmax = 5.02
                 text = "da"
-            intervals [12]:
+            intervals [16]:
                 xmin = 5.02
                 xmax = 5.78
                 text = "pokaže"
-            intervals [13]:
+            intervals [17]:
+                xmin = 5.78
+                xmax = 6.02
+                text = ""
+            intervals [18]:
                 xmin = 6.02
                 xmax = 6.25
                 text = "i"
-            intervals [14]:
+            intervals [19]:
                 xmin = 6.25
                 xmax = 7.09
                 text = "dokazi"
-            intervals [15]:
+            intervals [20]:
+                xmin = 7.09
+                xmax = 7.45
+                text = ""
+            intervals [21]:
                 xmin = 7.45
                 xmax = 7.62
                 text = "za"
-            intervals [16]:
+            intervals [22]:
                 xmin = 7.62
                 xmax = 8.01
                 text = "jedan"
-            intervals [17]:
+            intervals [23]:
                 xmin = 8.01
                 xmax = 8.53
                 text = "primjer"
-            intervals [18]:
+            intervals [24]:
+                xmin = 8.53
+                xmax = 8.6
+                text = ""
+            intervals [25]:
                 xmin = 8.6
                 xmax = 9.06
                 text = "ako"
-            intervals [19]:
+            intervals [26]:
                 xmin = 9.06
                 xmax = 9.31
                 text = "ki"
-            intervals [20]:
+            intervals [27]:
                 xmin = 9.31
                 xmax = 9.61
                 text = "riče"
-            intervals [21]:
+            intervals [28]:
+                xmin = 9.61
+                xmax = 10.08
+                text = ""
+            intervals [29]:
                 xmin = 10.08
                 xmax = 10.3
                 text = "da"
-            intervals [22]:
+            intervals [30]:
                 xmin = 10.3
                 xmax = 10.47
                 text = "je"
-            intervals [23]:
+            intervals [31]:
+                xmin = 10.47
+                xmax = 10.5
+                text = ""
+            intervals [32]:
                 xmin = 10.5
                 xmax = 11.16
                 text = "otkril"
-            intervals [24]:
+            intervals [33]:
                 xmin = 11.16
                 xmax = 11.53
                 text = "jednu"
-            intervals [25]:
+            intervals [34]:
+                xmin = 11.53
+                xmax = 11.61
+                text = ""
+            intervals [35]:
                 xmin = 11.61
                 xmax = 11.91
                 text = "velu"
-            intervals [26]:
+            intervals [36]:
                 xmin = 11.91
                 xmax = 12.54
                 text = "planinu"
-            intervals [27]:
+            intervals [37]:
+                xmin = 12.54
+                xmax = 12.9
+                text = ""
+            intervals [38]:
                 xmin = 12.9
                 xmax = 13.22
                 text = "unda"
-            intervals [28]:
+            intervals [39]:
                 xmin = 13.22
                 xmax = 13.39
                 text = "se"
-            intervals [29]:
+            intervals [40]:
                 xmin = 13.39
                 xmax = 13.57
                 text = "od"
-            intervals [30]:
+            intervals [41]:
                 xmin = 13.57
                 xmax = 13.94
                 text = "njega"
-            intervals [31]:
+            intervals [42]:
                 xmin = 13.94
                 xmax = 14.37
                 text = "išće"
-            intervals [32]:
+            intervals [43]:
                 xmin = 14.37
                 xmax = 14.51
                 text = "da"
-            intervals [33]:
+            intervals [44]:
                 xmin = 14.51
                 xmax = 15.06
                 text = "donese"
-            intervals [34]:
+            intervals [45]:
                 xmin = 15.06
                 xmax = 15.14
                 text = "i"
-            intervals [35]:
+            intervals [46]:
                 xmin = 15.14
                 xmax = 15.7
                 text = "prezenta"
-            intervals [36]:
+            intervals [47]:
+                xmin = 15.7
+                xmax = 16.13
+                text = ""
+            intervals [48]:
                 xmin = 16.13
                 xmax = 16.34
                 text = "i"
-            intervals [37]:
+            intervals [49]:
                 xmin = 16.34
                 xmax = 16.65
                 text = "velo"
-            intervals [38]:
+            intervals [50]:
                 xmin = 16.65
                 xmax = 17.36
                 text = "stenje"
-            intervals [39]:
+            intervals [51]:
+                xmin = 17.36
+                xmax = 17.39
+                text = ""
+            intervals [52]:
                 xmin = 17.39
                 xmax = 17.6
                 text = "od"
-            intervals [40]:
+            intervals [53]:
+                xmin = 17.6
+                xmax = 17.63
+                text = ""
+            intervals [54]:
                 xmin = 17.63
                 xmax = 17.86
                 text = "te"
-            intervals [41]:
+            intervals [55]:
                 xmin = 17.86
                 xmax = 18.46
                 text = "planine"

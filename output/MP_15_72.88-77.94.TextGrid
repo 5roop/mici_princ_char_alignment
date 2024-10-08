@@ -8,7 +8,7 @@ size = 2
 item []:
     item [1]:
         class = "IntervalTier"
-        name = "CharAlign"
+        name = "PhonAlign"
         xmin = 0.0
         xmax = 5.04
         intervals: size = 57
@@ -245,7 +245,7 @@ item []:
         name = "WordAlign"
         xmin = 0.0
         xmax = 5.04
-        intervals: size = 13
+        intervals: size = 15
             intervals [1]:
                 xmin = 0.0
                 xmax = 0.28
@@ -267,34 +267,42 @@ item []:
                 xmax = 1.63
                 text = "stov"
             intervals [6]:
+                xmin = 1.63
+                xmax = 1.69
+                text = ""
+            intervals [7]:
                 xmin = 1.69
                 xmax = 2.04
                 text = "malo"
-            intervals [7]:
+            intervals [8]:
                 xmin = 2.04
                 xmax = 2.81
                 text = "zapuhan"
-            intervals [8]:
+            intervals [9]:
+                xmin = 2.81
+                xmax = 2.92
+                text = ""
+            intervals [10]:
                 xmin = 2.92
                 xmax = 3.2
                 text = "biv"
-            intervals [9]:
+            intervals [11]:
                 xmin = 3.2
                 xmax = 3.31
                 text = "je"
-            intervals [10]:
+            intervals [12]:
                 xmin = 3.31
                 xmax = 3.94
                 text = "prepasav"
-            intervals [11]:
+            intervals [13]:
                 xmin = 3.94
                 xmax = 4.28
                 text = "već"
-            intervals [12]:
+            intervals [14]:
                 xmin = 4.28
                 xmax = 4.76
                 text = "tulik"
-            intervals [13]:
+            intervals [15]:
                 xmin = 4.76
                 xmax = 5.01
                 text = "put"

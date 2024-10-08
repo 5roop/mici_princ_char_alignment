@@ -8,7 +8,7 @@ size = 2
 item []:
     item [1]:
         class = "IntervalTier"
-        name = "CharAlign"
+        name = "PhonAlign"
         xmin = 0.0
         xmax = 6.25
         intervals: size = 78
@@ -329,7 +329,7 @@ item []:
         name = "WordAlign"
         xmin = 0.0
         xmax = 6.25
-        intervals: size = 15
+        intervals: size = 18
             intervals [1]:
                 xmin = 0.0
                 xmax = 0.14
@@ -347,46 +347,58 @@ item []:
                 xmax = 1.09
                 text = "važnije"
             intervals [5]:
+                xmin = 1.09
+                xmax = 1.26
+                text = ""
+            intervals [6]:
                 xmin = 1.26
                 xmax = 1.42
                 text = "i"
-            intervals [6]:
+            intervals [7]:
                 xmin = 1.42
                 xmax = 1.76
                 text = "više"
-            intervals [7]:
+            intervals [8]:
                 xmin = 1.76
                 xmax = 2.35
                 text = "zaspraven"
-            intervals [8]:
+            intervals [9]:
+                xmin = 2.35
+                xmax = 2.54
+                text = ""
+            intervals [10]:
                 xmin = 2.54
                 xmax = 3.03
                 text = "nigo"
-            intervals [9]:
+            intervals [11]:
+                xmin = 3.03
+                xmax = 3.17
+                text = ""
+            intervals [12]:
                 xmin = 3.17
                 xmax = 3.62
                 text = "nikakov"
-            intervals [10]:
+            intervals [13]:
                 xmin = 3.62
                 xmax = 3.98
                 text = "račun"
-            intervals [11]:
+            intervals [14]:
                 xmin = 3.98
                 xmax = 4.07
                 text = "od"
-            intervals [12]:
+            intervals [15]:
                 xmin = 4.07
                 xmax = 4.36
                 text = "nikiga"
-            intervals [13]:
+            intervals [16]:
                 xmin = 4.36
                 xmax = 4.98
                 text = "debeliga"
-            intervals [14]:
+            intervals [17]:
                 xmin = 4.98
                 xmax = 5.55
                 text = "črvjeniga"
-            intervals [15]:
+            intervals [18]:
                 xmin = 5.55
                 xmax = 6.25
                 text = "štimanca"

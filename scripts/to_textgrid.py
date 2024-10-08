@@ -1,12 +1,12 @@
 try:
     alignmentfile = snakemake.input.alignment
     wordalignmentfile = snakemake.input.wordalignment
-    # wavfile = snakemake.input.wav
+    graphemealignment = snakemake.input.graphemealignment
     outfile = snakemake.output[0]
 except NameError:
     alignmentfile = "kaldidebug/trans_phones_with_symbols.ctm"
-    wordalignmentfile = "kaldidebug/ali.ctm"
-    # wavfile = "data/MPmp3_wav/MP_01_0.33-12.69.wav"
+    wordalignmentfile = "kaldidebug/ali_words.ctm"
+    graphemealignment = "kaldidebug/ali_graphemes.ctm"
     outfile = "brisi.TextGrid"
 
 import polars as pl
@@ -43,8 +43,9 @@ for row in df.iter_rows(named=True):
         )
     )
 tier = textgrids.Tier(data=intervals, xmax=maxs, xmin=mins)
-tg["CharAlign"] = tier
+tg["PhonAlign"] = tier
 
+# Words:
 df = pl.read_csv(
     wordalignmentfile,
     separator=" ",
@@ -54,6 +55,15 @@ df = pl.read_csv(
 
 intervals = []
 for row in df.iter_rows(named=True):
+    try:
+        if (previous_end := intervals[-1].xmax) < row["start"]:
+                intervals.append(
+                    textgrids.Interval(
+                        text="", xmin=round(previous_end, 2), xmax=round(row["start"], 2)
+                    )
+                )
+    except IndexError:
+         pass
     intervals.append(
         textgrids.Interval(
             text=row["word"], xmin=round(row["start"], 2), xmax=round(row["end"], 2)
@@ -61,6 +71,34 @@ for row in df.iter_rows(named=True):
     )
 tier = textgrids.Tier(data=intervals, xmax=maxs, xmin=mins)
 tg["WordAlign"] = tier
+
+
+# # Graphemes:
+# df = pl.read_csv(
+#     graphemealignment,
+#     separator=" ",
+#     has_header=False,
+#     new_columns="sampleid channels start duration word idk idk2".split(),
+# ).with_columns(end=pl.col("start")+pl.col("duration"))
+
+# intervals = []
+# for row in df.iter_rows(named=True):
+#     try:
+#         if (previous_end := intervals[-1].xmax) < row["start"]:
+#                 intervals.append(
+#                     textgrids.Interval(
+#                         text="", xmin=round(previous_end, 2), xmax=round(row["start"], 2)
+#                     )
+#                 )
+#     except IndexError:
+#          pass
+#     intervals.append(
+#         textgrids.Interval(
+#             text=row["word"], xmin=round(row["start"], 2), xmax=round(row["end"], 2)
+#         )
+#     )
+# tier = textgrids.Tier(data=intervals, xmax=maxs, xmin=mins)
+# tg["CharAlign"] = tier
 
 
 tg.write(outfile)

@@ -8,7 +8,7 @@ size = 2
 item []:
     item [1]:
         class = "IntervalTier"
-        name = "CharAlign"
+        name = "PhonAlign"
         xmin = 0.0
         xmax = 6.67
         intervals: size = 85
@@ -357,7 +357,7 @@ item []:
         name = "WordAlign"
         xmin = 0.0
         xmax = 6.67
-        intervals: size = 16
+        intervals: size = 20
             intervals [1]:
                 xmin = 0.0
                 xmax = 0.08
@@ -375,50 +375,66 @@ item []:
                 xmax = 1.06
                 text = "malo"
             intervals [5]:
+                xmin = 1.06
+                xmax = 1.09
+                text = ""
+            intervals [6]:
                 xmin = 1.09
                 xmax = 1.49
                 text = "okoli"
-            intervals [6]:
+            intervals [7]:
                 xmin = 1.49
                 xmax = 1.94
                 text = "sebe"
-            intervals [7]:
+            intervals [8]:
+                xmin = 1.94
+                xmax = 2.02
+                text = ""
+            intervals [9]:
                 xmin = 2.02
                 xmax = 2.22
                 text = "po"
-            intervals [8]:
+            intervals [10]:
                 xmin = 2.22
                 xmax = 3.17
                 text = "geografovin"
-            intervals [9]:
+            intervals [11]:
                 xmin = 3.17
                 xmax = 3.78
                 text = "planetu"
-            intervals [10]:
+            intervals [12]:
+                xmin = 3.78
+                xmax = 3.82
+                text = ""
+            intervals [13]:
                 xmin = 3.82
                 xmax = 4.36
                 text = "nigdar"
-            intervals [11]:
+            intervals [14]:
                 xmin = 4.36
                 xmax = 4.51
                 text = "ni"
-            intervals [12]:
+            intervals [15]:
                 xmin = 4.51
                 xmax = 4.78
                 text = "još"
-            intervals [13]:
+            intervals [16]:
                 xmin = 4.78
                 xmax = 5.18
                 text = "videv"
-            intervals [14]:
+            intervals [17]:
                 xmin = 5.18
                 xmax = 5.65
                 text = "takov"
-            intervals [15]:
+            intervals [18]:
                 xmin = 5.65
                 xmax = 6.3
                 text = "veličanstven"
-            intervals [16]:
+            intervals [19]:
+                xmin = 6.3
+                xmax = 6.33
+                text = ""
+            intervals [20]:
                 xmin = 6.33
                 xmax = 6.67
                 text = "planet"

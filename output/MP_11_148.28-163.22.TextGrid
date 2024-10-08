@@ -8,7 +8,7 @@ size = 2
 item []:
     item [1]:
         class = "IntervalTier"
-        name = "CharAlign"
+        name = "PhonAlign"
         xmin = 0.0
         xmax = 14.92
         intervals: size = 136
@@ -561,7 +561,7 @@ item []:
         name = "WordAlign"
         xmin = 0.0
         xmax = 14.92
-        intervals: size = 38
+        intervals: size = 47
             intervals [1]:
                 xmin = 0.03
                 xmax = 0.26
@@ -591,126 +591,162 @@ item []:
                 xmax = 1.77
                 text = "svitu"
             intervals [8]:
+                xmin = 1.77
+                xmax = 2.21
+                text = ""
+            intervals [9]:
                 xmin = 2.21
                 xmax = 2.82
                 text = "stori"
-            intervals [9]:
+            intervals [10]:
                 xmin = 2.82
                 xmax = 3.2
                 text = "to"
-            intervals [10]:
+            intervals [11]:
                 xmin = 3.2
                 xmax = 3.4
                 text = "da"
-            intervals [11]:
+            intervals [12]:
                 xmin = 3.4
                 xmax = 3.64
                 text = "mi"
-            intervals [12]:
+            intervals [13]:
                 xmin = 3.64
                 xmax = 3.92
                 text = "rit"
-            intervals [13]:
+            intervals [14]:
+                xmin = 3.92
+                xmax = 3.95
+                text = ""
+            intervals [15]:
                 xmin = 3.95
                 xmax = 4.29
                 text = "bude"
-            intervals [14]:
+            intervals [16]:
                 xmin = 4.29
                 xmax = 4.43
                 text = "na"
-            intervals [15]:
+            intervals [17]:
                 xmin = 4.43
                 xmax = 4.96
                 text = "mistu"
-            intervals [16]:
+            intervals [18]:
+                xmin = 4.96
+                xmax = 5.26
+                text = ""
+            intervals [19]:
                 xmin = 5.26
                 xmax = 5.53
                 text = "ala"
-            intervals [17]:
+            intervals [20]:
                 xmin = 5.53
                 xmax = 6.0
                 text = "daj"
-            intervals [18]:
+            intervals [21]:
+                xmin = 6.0
+                xmax = 6.17
+                text = ""
+            intervals [22]:
                 xmin = 6.17
                 xmax = 6.59
                 text = "glej"
-            intervals [19]:
+            intervals [23]:
                 xmin = 6.59
                 xmax = 6.87
                 text = "va"
-            intervals [20]:
+            intervals [24]:
+                xmin = 6.87
+                xmax = 6.9
+                text = ""
+            intervals [25]:
                 xmin = 6.9
                 xmax = 7.12
                 text = "me"
-            intervals [21]:
+            intervals [26]:
+                xmin = 7.12
+                xmax = 7.16
+                text = ""
+            intervals [27]:
                 xmin = 7.16
                 xmax = 7.54
                 text = "kot"
-            intervals [22]:
+            intervals [28]:
                 xmin = 7.54
                 xmax = 7.72
                 text = "va"
-            intervals [23]:
+            intervals [29]:
                 xmin = 7.72
                 xmax = 8.3
                 text = "boga"
-            intervals [24]:
+            intervals [30]:
+                xmin = 8.3
+                xmax = 9.23
+                text = ""
+            intervals [31]:
                 xmin = 9.23
                 xmax = 9.5
                 text = "evo"
-            intervals [25]:
+            intervals [32]:
                 xmin = 9.5
                 xmax = 9.9
                 text = "dan"
-            intervals [26]:
+            intervals [33]:
+                xmin = 9.9
+                xmax = 10.58
+                text = ""
+            intervals [34]:
                 xmin = 10.58
                 xmax = 10.87
                 text = "ali"
-            intervals [27]:
+            intervals [35]:
                 xmin = 10.87
                 xmax = 11.07
                 text = "zač"
-            intervals [28]:
+            intervals [36]:
                 xmin = 11.07
                 xmax = 11.22
                 text = "ti"
-            intervals [29]:
+            intervals [37]:
                 xmin = 11.22
                 xmax = 11.3
                 text = "je"
-            intervals [30]:
+            intervals [38]:
                 xmin = 11.3
                 xmax = 11.4
                 text = "do"
-            intervals [31]:
+            intervals [39]:
                 xmin = 11.4
                 xmax = 11.68
                 text = "tiga"
-            intervals [32]:
+            intervals [40]:
                 xmin = 11.68
                 xmax = 12.04
                 text = "tuliko"
-            intervals [33]:
+            intervals [41]:
                 xmin = 12.04
                 xmax = 12.43
                 text = "stalo"
-            intervals [34]:
+            intervals [42]:
+                xmin = 12.43
+                xmax = 13.16
+                text = ""
+            intervals [43]:
                 xmin = 13.16
                 xmax = 13.44
                 text = "veli"
-            intervals [35]:
+            intervals [44]:
                 xmin = 13.44
                 xmax = 13.63
                 text = "su"
-            intervals [36]:
+            intervals [45]:
                 xmin = 13.63
                 xmax = 14.22
                 text = "zaspraven"
-            intervals [37]:
+            intervals [46]:
                 xmin = 14.22
                 xmax = 14.48
                 text = "jako"
-            intervals [38]:
+            intervals [47]:
                 xmin = 14.48
                 xmax = 14.92
                 text = "čudni"

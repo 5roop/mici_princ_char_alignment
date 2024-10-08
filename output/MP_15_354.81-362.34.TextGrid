@@ -8,7 +8,7 @@ size = 2
 item []:
     item [1]:
         class = "IntervalTier"
-        name = "CharAlign"
+        name = "PhonAlign"
         xmin = 0.0
         xmax = 7.510000000000001
         intervals: size = 55
@@ -237,48 +237,68 @@ item []:
         name = "WordAlign"
         xmin = 0.0
         xmax = 7.510000000000001
-        intervals: size = 11
+        intervals: size = 16
             intervals [1]:
                 xmin = 0.0
                 xmax = 0.99
                 text = "zaželi"
             intervals [2]:
+                xmin = 0.99
+                xmax = 1.22
+                text = ""
+            intervals [3]:
                 xmin = 1.22
                 xmax = 1.47
                 text = "i"
-            intervals [3]:
+            intervals [4]:
                 xmin = 1.47
                 xmax = 2.06
                 text = "obajdi"
-            intervals [4]:
+            intervals [5]:
                 xmin = 2.06
                 xmax = 2.66
                 text = "planet"
-            intervals [5]:
+            intervals [6]:
+                xmin = 2.66
+                xmax = 3.08
+                text = ""
+            intervals [7]:
                 xmin = 3.08
                 xmax = 3.68
                 text = "zemlju"
-            intervals [6]:
+            intervals [8]:
+                xmin = 3.68
+                xmax = 4.2
+                text = ""
+            intervals [9]:
                 xmin = 4.2
                 xmax = 4.56
                 text = "ona"
-            intervals [7]:
+            intervals [10]:
                 xmin = 4.56
                 xmax = 4.7
                 text = "je"
-            intervals [8]:
+            intervals [11]:
                 xmin = 4.7
                 xmax = 5.42
                 text = "sigurno"
-            intervals [9]:
+            intervals [12]:
+                xmin = 5.42
+                xmax = 5.77
+                text = ""
+            intervals [13]:
                 xmin = 5.77
                 xmax = 5.96
                 text = "na"
-            intervals [10]:
+            intervals [14]:
                 xmin = 5.96
                 xmax = 6.83
                 text = "dobromu"
-            intervals [11]:
+            intervals [15]:
+                xmin = 6.83
+                xmax = 6.92
+                text = ""
+            intervals [16]:
                 xmin = 6.92
                 xmax = 7.51
                 text = "glasu"
