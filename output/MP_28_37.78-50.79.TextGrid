@@ -430,22 +430,22 @@ item []:
             text = "sp" 
         intervals [105]:
             xmin = 9.01 
-            xmax = 9.1 
+            xmax = 9.09 
             text = "k_B" 
         intervals [106]:
-            xmin = 9.1 
-            xmax = 9.13 
+            xmin = 9.09 
+            xmax = 9.15 
             text = "o_E" 
         intervals [107]:
-            xmin = 9.13 
-            xmax = 9.33 
-            text = "sp" 
+            xmin = 9.15 
+            xmax = 9.31 
+            text = "j_B" 
         intervals [108]:
-            xmin = 9.33 
-            xmax = 9.36 
-            text = "Z_B" 
+            xmin = 9.31 
+            xmax = 9.34 
+            text = "e_I" 
         intervals [109]:
-            xmin = 9.36 
+            xmin = 9.34 
             xmax = 9.4 
             text = "n_I" 
         intervals [110]:
@@ -613,7 +613,7 @@ item []:
         name = "WordAlign" 
         xmin = 0 
         xmax = 12.99 
-        intervals: size = 42 
+        intervals: size = 41 
         intervals [1]:
             xmin = 0 
             xmax = 0.11 
@@ -736,49 +736,45 @@ item []:
             text = "( )" 
         intervals [31]:
             xmin = 9.01 
-            xmax = 9.13 
+            xmax = 9.15 
             text = "ko" 
         intervals [32]:
-            xmin = 9.13 
-            xmax = 9.33 
-            text = "( )" 
-        intervals [33]:
-            xmin = 9.33 
+            xmin = 9.15 
             xmax = 9.59 
             text = "jeniga" 
-        intervals [34]:
+        intervals [33]:
             xmin = 9.59 
             xmax = 10.1 
             text = "dana" 
-        intervals [35]:
+        intervals [34]:
             xmin = 10.1 
             xmax = 10.14 
             text = "( )" 
-        intervals [36]:
+        intervals [35]:
             xmin = 10.14 
             xmax = 10.74 
             text = "budete" 
-        intervals [37]:
+        intervals [36]:
             xmin = 10.74 
             xmax = 11.35 
             text = "putovali" 
-        intervals [38]:
+        intervals [37]:
             xmin = 11.35 
             xmax = 11.56 
             text = "po" 
-        intervals [39]:
+        intervals [38]:
             xmin = 11.56 
             xmax = 12.04 
             text = "afriki" 
-        intervals [40]:
+        intervals [39]:
             xmin = 12.04 
             xmax = 12.2 
             text = "( )" 
-        intervals [41]:
+        intervals [40]:
             xmin = 12.2 
             xmax = 12.37 
             text = "va" 
-        intervals [42]:
+        intervals [41]:
             xmin = 12.37 
             xmax = 12.99 
             text = "pustinji" 

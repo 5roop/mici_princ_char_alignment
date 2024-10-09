@@ -11,7 +11,7 @@ item []:
         name = "PhoneAlign" 
         xmin = 0 
         xmax = 13.15 
-        intervals: size = 108 
+        intervals: size = 109 
         intervals [1]:
             xmin = 0 
             xmax = 0.04 
@@ -434,16 +434,20 @@ item []:
             text = "s_B" 
         intervals [106]:
             xmin = 12.99 
-            xmax = 13.09 
+            xmax = 13.06 
             text = "u_I" 
         intervals [107]:
-            xmin = 13.09 
-            xmax = 13.12 
+            xmin = 13.06 
+            xmax = 13.09 
             text = "n_I" 
         intervals [108]:
+            xmin = 13.09 
+            xmax = 13.12 
+            text = "ts_I" 
+        intervals [109]:
             xmin = 13.12 
             xmax = 13.15 
-            text = "s_E" 
+            text = "e_E" 
     item [2]:
         class = "IntervalTier" 
         name = "WordAlign" 

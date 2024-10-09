@@ -11,7 +11,7 @@ item []:
         name = "PhoneAlign" 
         xmin = 0 
         xmax = 17.14 
-        intervals: size = 203 
+        intervals: size = 199 
         intervals [1]:
             xmin = 0 
             xmax = 0.07 
@@ -794,42 +794,26 @@ item []:
             text = "b_B" 
         intervals [196]:
             xmin = 16.79 
-            xmax = 16.84 
+            xmax = 16.85 
             text = "i_E" 
         intervals [197]:
-            xmin = 16.84 
-            xmax = 16.95 
-            text = "sp" 
+            xmin = 16.85 
+            xmax = 16.92 
+            text = "r_B" 
         intervals [198]:
-            xmin = 16.95 
-            xmax = 16.99 
-            text = "e_B" 
+            xmin = 16.92 
+            xmax = 17.03 
+            text = "e_I" 
         intervals [199]:
-            xmin = 16.99 
-            xmax = 17.02 
-            text = "d_I" 
-        intervals [200]:
-            xmin = 17.02 
-            xmax = 17.05 
-            text = "s_I" 
-        intervals [201]:
-            xmin = 17.05 
-            xmax = 17.08 
-            text = "ts_I" 
-        intervals [202]:
-            xmin = 17.08 
-            xmax = 17.11 
-            text = "x_I" 
-        intervals [203]:
-            xmin = 17.11 
+            xmin = 17.03 
             xmax = 17.14 
-            text = "a_E" 
+            text = "tcp_E" 
     item [2]:
         class = "IntervalTier" 
         name = "WordAlign" 
         xmin = 0 
         xmax = 17.14 
-        intervals: size = 61 
+        intervals: size = 60 
         intervals [1]:
             xmin = 0 
             xmax = 0.13 
@@ -1064,13 +1048,9 @@ item []:
             text = "pravo" 
         intervals [59]:
             xmin = 16.72 
-            xmax = 16.84 
+            xmax = 16.85 
             text = "bi" 
         intervals [60]:
-            xmin = 16.84 
-            xmax = 16.95 
-            text = "( )" 
-        intervals [61]:
-            xmin = 16.95 
+            xmin = 16.85 
             xmax = 17.14 
             text = "reć" 

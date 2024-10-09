@@ -2,7 +2,7 @@ File type = "ooTextFile"
 Object class = "TextGrid"
 
 xmin = 0 
-xmax = 17.630000000000003 
+xmax = 17.63 
 tiers? <exists> 
 size = 2 
 item []: 
@@ -10,8 +10,8 @@ item []:
         class = "IntervalTier" 
         name = "PhoneAlign" 
         xmin = 0 
-        xmax = 17.630000000000003 
-        intervals: size = 159 
+        xmax = 17.63 
+        intervals: size = 155 
         intervals [1]:
             xmin = 0 
             xmax = 0.07 
@@ -618,42 +618,26 @@ item []:
             text = "i_I" 
         intervals [152]:
             xmin = 17.23 
-            xmax = 17.32 
+            xmax = 17.31 
             text = "S_E" 
         intervals [153]:
-            xmin = 17.32 
-            xmax = 17.45 
-            text = "sp" 
+            xmin = 17.31 
+            xmax = 17.46 
+            text = "r_B" 
         intervals [154]:
-            xmin = 17.45 
-            xmax = 17.48 
-            text = "e_B" 
-        intervals [155]:
-            xmin = 17.48 
-            xmax = 17.51 
-            text = "d_I" 
-        intervals [156]:
-            xmin = 17.51 
+            xmin = 17.46 
             xmax = 17.54 
-            text = "s_I" 
-        intervals [157]:
+            text = "e_I" 
+        intervals [155]:
             xmin = 17.54 
-            xmax = 17.57 
-            text = "ts_I" 
-        intervals [158]:
-            xmin = 17.57 
-            xmax = 17.6 
-            text = "x_I" 
-        intervals [159]:
-            xmin = 17.6 
-            xmax = 17.630000000000003 
-            text = "a_E" 
+            xmax = 17.63 
+            text = "tcp_E" 
     item [2]:
         class = "IntervalTier" 
         name = "WordAlign" 
         xmin = 0 
-        xmax = 17.630000000000003 
-        intervals: size = 49 
+        xmax = 17.63 
+        intervals: size = 48 
         intervals [1]:
             xmin = 0 
             xmax = 0.12 
@@ -840,13 +824,9 @@ item []:
             text = "ča" 
         intervals [47]:
             xmin = 16.93 
-            xmax = 17.32 
+            xmax = 17.31 
             text = "želiš" 
         intervals [48]:
-            xmin = 17.32 
-            xmax = 17.45 
-            text = "( )" 
-        intervals [49]:
-            xmin = 17.45 
-            xmax = 17.630000000000003 
+            xmin = 17.31 
+            xmax = 17.63 
             text = "reć" 

@@ -11,7 +11,7 @@ item []:
         name = "PhoneAlign" 
         xmin = 0 
         xmax = 1.84 
-        intervals: size = 29 
+        intervals: size = 30 
         intervals [1]:
             xmin = 0 
             xmax = 0.03 
@@ -78,53 +78,57 @@ item []:
             text = "e_I" 
         intervals [17]:
             xmin = 0.83 
-            xmax = 0.9 
+            xmax = 0.89 
             text = "v_E" 
         intervals [18]:
-            xmin = 0.9 
-            xmax = 0.98 
-            text = "Z_B" 
+            xmin = 0.89 
+            xmax = 0.96 
+            text = "j_B" 
         intervals [19]:
-            xmin = 0.98 
-            xmax = 1.07 
-            text = "n_I" 
+            xmin = 0.96 
+            xmax = 1.01 
+            text = "e_I" 
         intervals [20]:
-            xmin = 1.07 
+            xmin = 1.01 
+            xmax = 1.08 
+            text = "n_I" 
+        intervals [21]:
+            xmin = 1.08 
             xmax = 1.11 
             text = "i_I" 
-        intervals [21]:
+        intervals [22]:
             xmin = 1.11 
             xmax = 1.16 
             text = "g_I" 
-        intervals [22]:
+        intervals [23]:
             xmin = 1.16 
             xmax = 1.23 
             text = "a_E" 
-        intervals [23]:
+        intervals [24]:
             xmin = 1.23 
             xmax = 1.31 
             text = "k_B" 
-        intervals [24]:
+        intervals [25]:
             xmin = 1.31 
             xmax = 1.38 
             text = "r_I" 
-        intervals [25]:
+        intervals [26]:
             xmin = 1.38 
             xmax = 1.49 
             text = "a_I" 
-        intervals [26]:
+        intervals [27]:
             xmin = 1.49 
             xmax = 1.55 
             text = "j_I" 
-        intervals [27]:
+        intervals [28]:
             xmin = 1.55 
             xmax = 1.64 
             text = "a_E" 
-        intervals [28]:
+        intervals [29]:
             xmin = 1.64 
             xmax = 1.78 
             text = "k_B" 
-        intervals [29]:
+        intervals [30]:
             xmin = 1.78 
             xmax = 1.84 
             text = "i_E" 
@@ -156,10 +160,10 @@ item []:
             text = "već" 
         intervals [6]:
             xmin = 0.63 
-            xmax = 0.9 
+            xmax = 0.89 
             text = "videv" 
         intervals [7]:
-            xmin = 0.9 
+            xmin = 0.89 
             xmax = 1.23 
             text = "jeniga" 
         intervals [8]:

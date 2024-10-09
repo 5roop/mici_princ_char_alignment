@@ -11,7 +11,7 @@ item []:
         name = "PhoneAlign" 
         xmin = 0 
         xmax = 16.31 
-        intervals: size = 186 
+        intervals: size = 183 
         intervals [1]:
             xmin = 0 
             xmax = 0.03 
@@ -674,85 +674,73 @@ item []:
             text = "l_I" 
         intervals [166]:
             xmin = 14.8 
-            xmax = 14.91 
+            xmax = 14.92 
             text = "a_I" 
         intervals [167]:
-            xmin = 14.91 
-            xmax = 14.95 
-            text = "s_I" 
+            xmin = 14.92 
+            xmax = 15.05 
+            text = "S_I" 
         intervals [168]:
-            xmin = 14.95 
-            xmax = 14.98 
-            text = "s_I" 
+            xmin = 15.05 
+            xmax = 15.1 
+            text = "tcp_I" 
         intervals [169]:
-            xmin = 14.98 
-            xmax = 15.08 
-            text = "ts_I" 
+            xmin = 15.1 
+            xmax = 15.19 
+            text = "o_I" 
         intervals [170]:
-            xmin = 15.08 
-            xmax = 15.12 
-            text = "x_I" 
-        intervals [171]:
-            xmin = 15.12 
-            xmax = 15.18 
-            text = "a_I" 
-        intervals [172]:
-            xmin = 15.18 
-            xmax = 15.21 
-            text = "d_I" 
-        intervals [173]:
-            xmin = 15.21 
+            xmin = 15.19 
             xmax = 15.24 
             text = "n_E" 
-        intervals [174]:
+        intervals [171]:
             xmin = 15.24 
             xmax = 15.31 
             text = "sp" 
-        intervals [175]:
+        intervals [172]:
             xmin = 15.31 
             xmax = 15.41 
             text = "o_B" 
-        intervals [176]:
+        intervals [173]:
             xmin = 15.41 
             xmax = 15.45 
             text = "d_E" 
-        intervals [177]:
+        intervals [174]:
             xmin = 15.45 
             xmax = 15.56 
             text = "x_B" 
-        intervals [178]:
+        intervals [175]:
             xmin = 15.56 
             xmax = 15.61 
             text = "e_I" 
-        intervals [179]:
+        intervals [176]:
             xmin = 15.61 
             xmax = 15.69 
             text = "r_I" 
-        intervals [180]:
+        intervals [177]:
             xmin = 15.69 
             xmax = 15.75 
             text = "m_I" 
-        intervals [181]:
+        intervals [178]:
             xmin = 15.75 
             xmax = 15.8 
             text = "e_I" 
-        intervals [182]:
+        intervals [179]:
             xmin = 15.8 
             xmax = 15.91 
             text = "l_I" 
-        intervals [183]:
+        intervals [180]:
             xmin = 15.91 
             xmax = 16 
             text = "i_I" 
-        intervals [184]:
+        intervals [181]:
             xmin = 16 
             xmax = 16.11 
             text = "n_I" 
-        intervals [185]:
+        intervals [182]:
             xmin = 16.11 
             xmax = 16.27 
             text = "a_E" 
-        intervals [186]:
+        intervals [183]:
             xmin = 16.27 
             xmax = 16.31 
             text = "sp" 

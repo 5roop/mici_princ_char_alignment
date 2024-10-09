@@ -11,7 +11,7 @@ item []:
         name = "PhoneAlign" 
         xmin = 0 
         xmax = 18.25 
-        intervals: size = 203 
+        intervals: size = 200 
         intervals [1]:
             xmin = 0 
             xmax = 0.08 
@@ -782,45 +782,33 @@ item []:
             text = "p_B" 
         intervals [193]:
             xmin = 16.63 
-            xmax = 16.73 
+            xmax = 16.77 
             text = "o_I" 
         intervals [194]:
-            xmin = 16.73 
-            xmax = 16.8 
-            text = "d_I" 
+            xmin = 16.77 
+            xmax = 16.87 
+            text = "tcp_E" 
         intervals [195]:
-            xmin = 16.8 
-            xmax = 16.83 
-            text = "s_I" 
-        intervals [196]:
-            xmin = 16.83 
-            xmax = 16.86 
-            text = "ts_I" 
-        intervals [197]:
-            xmin = 16.86 
-            xmax = 16.89 
-            text = "x_E" 
-        intervals [198]:
-            xmin = 16.89 
+            xmin = 16.87 
             xmax = 16.98 
             text = "sp" 
-        intervals [199]:
+        intervals [196]:
             xmin = 16.98 
             xmax = 17.05 
             text = "tcp_B" 
-        intervals [200]:
+        intervals [197]:
             xmin = 17.05 
             xmax = 17.2 
             text = "a_E" 
-        intervals [201]:
+        intervals [198]:
             xmin = 17.2 
             xmax = 17.69 
             text = "sp" 
-        intervals [202]:
+        intervals [199]:
             xmin = 17.69 
             xmax = 17.87 
             text = "n_B" 
-        intervals [203]:
+        intervals [200]:
             xmin = 17.87 
             xmax = 18.25 
             text = "e_E" 
@@ -1064,10 +1052,10 @@ item []:
             text = "želin" 
         intervals [59]:
             xmin = 16.57 
-            xmax = 16.89 
+            xmax = 16.87 
             text = "poć" 
         intervals [60]:
-            xmin = 16.89 
+            xmin = 16.87 
             xmax = 16.98 
             text = "( )" 
         intervals [61]:

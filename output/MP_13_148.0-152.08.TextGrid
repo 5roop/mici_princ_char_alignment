@@ -94,14 +94,14 @@ item []:
             text = "ts_I" 
         intervals [21]:
             xmin = 1.87 
-            xmax = 2.01 
+            xmax = 1.99 
             text = "i_I" 
         intervals [22]:
-            xmin = 2.01 
-            xmax = 2.04 
-            text = "k_E" 
+            xmin = 1.99 
+            xmax = 2.08 
+            text = "ts_E" 
         intervals [23]:
-            xmin = 2.04 
+            xmin = 2.08 
             xmax = 2.19 
             text = "k_B" 
         intervals [24]:
@@ -208,10 +208,10 @@ item []:
             text = "mićih" 
         intervals [4]:
             xmin = 1.38 
-            xmax = 2.04 
+            xmax = 2.08 
             text = "stvarcic" 
         intervals [5]:
-            xmin = 2.04 
+            xmin = 2.08 
             xmax = 2.29 
             text = "ke" 
         intervals [6]:

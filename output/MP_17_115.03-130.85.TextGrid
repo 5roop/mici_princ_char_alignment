@@ -11,7 +11,7 @@ item []:
         name = "PhoneAlign" 
         xmin = 0 
         xmax = 15.8 
-        intervals: size = 174 
+        intervals: size = 171 
         intervals [1]:
             xmin = 0 
             xmax = 0.07 
@@ -666,45 +666,33 @@ item []:
             text = "r_I" 
         intervals [164]:
             xmin = 15.15 
-            xmax = 15.19 
+            xmax = 15.21 
             text = "a_I" 
         intervals [165]:
-            xmin = 15.19 
-            xmax = 15.24 
-            text = "t_I" 
-        intervals [166]:
-            xmin = 15.24 
-            xmax = 15.27 
-            text = "s_I" 
-        intervals [167]:
-            xmin = 15.27 
+            xmin = 15.21 
             xmax = 15.31 
-            text = "ts_I" 
-        intervals [168]:
+            text = "tS_I" 
+        intervals [166]:
             xmin = 15.31 
-            xmax = 15.34 
-            text = "x_I" 
-        intervals [169]:
-            xmin = 15.34 
             xmax = 15.44 
             text = "u_I" 
-        intervals [170]:
+        intervals [167]:
             xmin = 15.44 
             xmax = 15.5 
             text = "n_I" 
-        intervals [171]:
+        intervals [168]:
             xmin = 15.5 
             xmax = 15.61 
             text = "a_I" 
-        intervals [172]:
+        intervals [169]:
             xmin = 15.61 
             xmax = 15.65 
             text = "j_I" 
-        intervals [173]:
+        intervals [170]:
             xmin = 15.65 
             xmax = 15.75 
             text = "u_E" 
-        intervals [174]:
+        intervals [171]:
             xmin = 15.75 
             xmax = 15.8 
             text = "sp" 

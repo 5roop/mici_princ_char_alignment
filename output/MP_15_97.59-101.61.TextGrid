@@ -110,20 +110,20 @@ item []:
             text = "a_I" 
         intervals [25]:
             xmin = 2.43 
-            xmax = 2.54 
+            xmax = 2.46 
             text = "j_I" 
         intervals [26]:
-            xmin = 2.54 
-            xmax = 2.57 
+            xmin = 2.46 
+            xmax = 2.49 
             text = "u_E" 
         intervals [27]:
-            xmin = 2.57 
-            xmax = 2.61 
-            text = "sp" 
+            xmin = 2.49 
+            xmax = 2.58 
+            text = "j_B" 
         intervals [28]:
-            xmin = 2.61 
+            xmin = 2.58 
             xmax = 2.64 
-            text = "Z_B" 
+            text = "e_I" 
         intervals [29]:
             xmin = 2.64 
             xmax = 2.72 
@@ -213,7 +213,7 @@ item []:
         name = "WordAlign" 
         xmin = 0 
         xmax = 4 
-        intervals: size = 14 
+        intervals: size = 13 
         intervals [1]:
             xmin = 0 
             xmax = 0.03 
@@ -248,25 +248,21 @@ item []:
             text = "na" 
         intervals [9]:
             xmin = 2.19 
-            xmax = 2.57 
+            xmax = 2.49 
             text = "kraju" 
         intervals [10]:
-            xmin = 2.57 
-            xmax = 2.61 
-            text = "( )" 
-        intervals [11]:
-            xmin = 2.61 
+            xmin = 2.49 
             xmax = 2.89 
             text = "jeniga" 
-        intervals [12]:
+        intervals [11]:
             xmin = 2.89 
             xmax = 3 
             text = "od" 
-        intervals [13]:
+        intervals [12]:
             xmin = 3 
             xmax = 3.44 
             text = "praviga" 
-        intervals [14]:
+        intervals [13]:
             xmin = 3.44 
             xmax = 4 
             text = "zanimanja" 
