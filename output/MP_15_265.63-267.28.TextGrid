@@ -4,7 +4,7 @@ Object class = "TextGrid"
 xmin = 0 
 xmax = 1.6300000000000001 
 tiers? <exists> 
-size = 2 
+size = 3 
 item []: 
     item [1]:
         class = "IntervalTier" 
@@ -103,6 +103,72 @@ item []:
             xmax = 1.6 
             text = "zna" 
         intervals [7]:
+            xmin = 1.6 
+            xmax = 1.6300000000000001 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "GraphAlign" 
+        xmin = 0 
+        xmax = 1.63 
+        intervals: size = 15 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.03 
+            text = "" 
+        intervals [2]:
+            xmin = 0.03 
+            xmax = 0.14 
+            text = "n" 
+        intervals [3]:
+            xmin = 0.14 
+            xmax = 0.35 
+            text = "i" 
+        intervals [4]:
+            xmin = 0.35 
+            xmax = 0.45 
+            text = "k" 
+        intervals [5]:
+            xmin = 0.45 
+            xmax = 0.58 
+            text = "a" 
+        intervals [6]:
+            xmin = 0.58 
+            xmax = 0.62 
+            text = "d" 
+        intervals [7]:
+            xmin = 0.62 
+            xmax = 0.65 
+            text = "" 
+        intervals [8]:
+            xmin = 0.65 
+            xmax = 0.81 
+            text = "s" 
+        intervals [9]:
+            xmin = 0.81 
+            xmax = 0.95 
+            text = "e" 
+        intervals [10]:
+            xmin = 0.95 
+            xmax = 1.07 
+            text = "n" 
+        intervals [11]:
+            xmin = 1.07 
+            xmax = 1.23 
+            text = "e" 
+        intervals [12]:
+            xmin = 1.23 
+            xmax = 1.31 
+            text = "z" 
+        intervals [13]:
+            xmin = 1.31 
+            xmax = 1.4 
+            text = "n" 
+        intervals [14]:
+            xmin = 1.4 
+            xmax = 1.6 
+            text = "a" 
+        intervals [15]:
             xmin = 1.6 
             xmax = 1.6300000000000001 
             text = "" 

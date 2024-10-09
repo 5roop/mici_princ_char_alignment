@@ -465,6 +465,7 @@ def apply_transformations_to_list(input_string, transformations):
 
     # Initialize an empty list to collect the transformed graphemes
     result = []
+    offsets = []
 
     # For each match, append the transformed value to the list
     start = 0
@@ -472,18 +473,20 @@ def apply_transformations_to_list(input_string, transformations):
         # Append the part of the string between the current and the previous match
         if match.start() > start:
             result.append(input_string[start : match.start()])
+            offsets.append(match.span())
 
         # Append the transformation of the matched key
         result.append(transformations[match.group(0)])
-
         # Move the start index forward
         start = match.end()
+        offsets.append(match.span())
 
     # Append any remaining part of the string
     if start < len(input_string):
         result.append(input_string[start:])
+        offsets.append((start, len(input_string)))
 
-    return result
+    return result, offsets
 
 
 def words_to_lexicon(wordlist: List, model: Path, dir: Path):
@@ -494,11 +497,12 @@ def words_to_lexicon(wordlist: List, model: Path, dir: Path):
     """
 
     lexicon = []
+    offsets = []
     for word, pron in phonetisaurus.predict(wordlist, model):
         # lexicon.append((word, 1.0, [i for i in word]))
-        pron = apply_transformations_to_list(word, graphemes2np)
+        pron, offset = apply_transformations_to_list(word, graphemes2np)
         lexicon.append((word, 1.0, pron))
-
+        offsets.append({"word": word, "pron": pron, "offset": offset})
     psyms, wsyms, L = prepare_lexicon(
         lexicon, silence_phones, nonsilence_phones, optional_silence, oov, dir
     )
@@ -506,6 +510,10 @@ def words_to_lexicon(wordlist: List, model: Path, dir: Path):
     L.set_input_symbols(psyms)
     L.set_output_symbols(wsyms)
     L.write(str(dir / "L.fst"))
+    import json
+    from pathlib import Path
+
+    Path(dir, "L.offsets").write_text(json.dumps(offsets, ensure_ascii=False, indent=4))
 
     print(f'Wrote {dir / "L.fst"}...')
 

@@ -1,0 +1,196 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.05 
+tiers? <exists> 
+size = 4 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "PhoneAlign" 
+        xmin = 0 
+        xmax = 1.05 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.03 
+            text = "sp" 
+        intervals [2]:
+            xmin = 0.03 
+            xmax = 0.09 
+            text = "a_S" 
+        intervals [3]:
+            xmin = 0.09 
+            xmax = 0.18 
+            text = "k_B" 
+        intervals [4]:
+            xmin = 0.18 
+            xmax = 0.29 
+            text = "i_I" 
+        intervals [5]:
+            xmin = 0.29 
+            xmax = 0.32 
+            text = "nj_I" 
+        intervals [6]:
+            xmin = 0.32 
+            xmax = 0.38 
+            text = "e_I" 
+        intervals [7]:
+            xmin = 0.38 
+            xmax = 0.47 
+            text = "v_I" 
+        intervals [8]:
+            xmin = 0.47 
+            xmax = 0.52 
+            text = "e_E" 
+        intervals [9]:
+            xmin = 0.52 
+            xmax = 0.63 
+            text = "s_B" 
+        intervals [10]:
+            xmin = 0.63 
+            xmax = 0.69 
+            text = "u_E" 
+        intervals [11]:
+            xmin = 0.69 
+            xmax = 0.83 
+            text = "o_B" 
+        intervals [12]:
+            xmin = 0.83 
+            xmax = 0.91 
+            text = "n_I" 
+        intervals [13]:
+            xmin = 0.91 
+            xmax = 1.05 
+            text = "e_E" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "WordAlign" 
+        xmin = 0 
+        xmax = 1.05 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.03 
+            text = "" 
+        intervals [2]:
+            xmin = 0.03 
+            xmax = 0.09 
+            text = "a" 
+        intervals [3]:
+            xmin = 0.09 
+            xmax = 0.52 
+            text = "kinjeve" 
+        intervals [4]:
+            xmin = 0.52 
+            xmax = 0.69 
+            text = "su" 
+        intervals [5]:
+            xmin = 0.69 
+            xmax = 1.05 
+            text = "one" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "GraphAlign" 
+        xmin = 0 
+        xmax = 1.05 
+        intervals: size = 13 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.03 
+            text = "" 
+        intervals [2]:
+            xmin = 0.03 
+            xmax = 0.09 
+            text = "a" 
+        intervals [3]:
+            xmin = 0.09 
+            xmax = 0.18 
+            text = "k" 
+        intervals [4]:
+            xmin = 0.18 
+            xmax = 0.29 
+            text = "i" 
+        intervals [5]:
+            xmin = 0.29 
+            xmax = 0.32 
+            text = "nj" 
+        intervals [6]:
+            xmin = 0.32 
+            xmax = 0.38 
+            text = "e" 
+        intervals [7]:
+            xmin = 0.38 
+            xmax = 0.47 
+            text = "v" 
+        intervals [8]:
+            xmin = 0.47 
+            xmax = 0.52 
+            text = "e" 
+        intervals [9]:
+            xmin = 0.52 
+            xmax = 0.63 
+            text = "s" 
+        intervals [10]:
+            xmin = 0.63 
+            xmax = 0.69 
+            text = "u" 
+        intervals [11]:
+            xmin = 0.69 
+            xmax = 0.83 
+            text = "o" 
+        intervals [12]:
+            xmin = 0.83 
+            xmax = 0.91 
+            text = "n" 
+        intervals [13]:
+            xmin = 0.91 
+            xmax = 1.05 
+            text = "e" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "Stress" 
+        xmin = 0 
+        xmax = 1.05 
+        intervals: size = 10 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.18 
+            text = "" 
+        intervals [2]:
+            xmin = 0.18 
+            xmax = 0.29 
+            text = "+" 
+        intervals [3]:
+            xmin = 0.29 
+            xmax = 0.32 
+            text = "" 
+        intervals [4]:
+            xmin = 0.32 
+            xmax = 0.38 
+            text = "-" 
+        intervals [5]:
+            xmin = 0.38 
+            xmax = 0.47 
+            text = "" 
+        intervals [6]:
+            xmin = 0.47 
+            xmax = 0.52 
+            text = "-" 
+        intervals [7]:
+            xmin = 0.52 
+            xmax = 0.69 
+            text = "" 
+        intervals [8]:
+            xmin = 0.69 
+            xmax = 0.83 
+            text = "+" 
+        intervals [9]:
+            xmin = 0.83 
+            xmax = 0.91 
+            text = "" 
+        intervals [10]:
+            xmin = 0.91 
+            xmax = 1.05 
+            text = "-" 

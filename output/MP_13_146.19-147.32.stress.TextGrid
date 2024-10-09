@@ -1,0 +1,160 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.11 
+tiers? <exists> 
+size = 4 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "PhoneAlign" 
+        xmin = 0 
+        xmax = 1.11 
+        intervals: size = 10 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.09 
+            text = "m_B" 
+        intervals [2]:
+            xmin = 0.09 
+            xmax = 0.24 
+            text = "i_I" 
+        intervals [3]:
+            xmin = 0.24 
+            xmax = 0.3 
+            text = "j_I" 
+        intervals [4]:
+            xmin = 0.3 
+            xmax = 0.4 
+            text = "u_I" 
+        intervals [5]:
+            xmin = 0.4 
+            xmax = 0.54 
+            text = "n_E" 
+        intervals [6]:
+            xmin = 0.54 
+            xmax = 0.66 
+            text = "tS_B" 
+        intervals [7]:
+            xmin = 0.66 
+            xmax = 0.9 
+            text = "i_I" 
+        intervals [8]:
+            xmin = 0.9 
+            xmax = 0.99 
+            text = "g_I" 
+        intervals [9]:
+            xmin = 0.99 
+            xmax = 1.08 
+            text = "a_E" 
+        intervals [10]:
+            xmin = 1.08 
+            xmax = 1.11 
+            text = "sp" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "WordAlign" 
+        xmin = 0 
+        xmax = 1.11 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.54 
+            text = "mijun" 
+        intervals [2]:
+            xmin = 0.54 
+            xmax = 1.08 
+            text = "čiga" 
+        intervals [3]:
+            xmin = 1.08 
+            xmax = 1.11 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "GraphAlign" 
+        xmin = 0 
+        xmax = 1.11 
+        intervals: size = 10 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.09 
+            text = "m" 
+        intervals [2]:
+            xmin = 0.09 
+            xmax = 0.24 
+            text = "i" 
+        intervals [3]:
+            xmin = 0.24 
+            xmax = 0.3 
+            text = "j" 
+        intervals [4]:
+            xmin = 0.3 
+            xmax = 0.4 
+            text = "u" 
+        intervals [5]:
+            xmin = 0.4 
+            xmax = 0.54 
+            text = "n" 
+        intervals [6]:
+            xmin = 0.54 
+            xmax = 0.66 
+            text = "č" 
+        intervals [7]:
+            xmin = 0.66 
+            xmax = 0.9 
+            text = "i" 
+        intervals [8]:
+            xmin = 0.9 
+            xmax = 0.99 
+            text = "g" 
+        intervals [9]:
+            xmin = 0.99 
+            xmax = 1.08 
+            text = "a" 
+        intervals [10]:
+            xmin = 1.08 
+            xmax = 1.11 
+            text = "" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "Stress" 
+        xmin = 0 
+        xmax = 1.11 
+        intervals: size = 9 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.09 
+            text = "" 
+        intervals [2]:
+            xmin = 0.09 
+            xmax = 0.24 
+            text = "-" 
+        intervals [3]:
+            xmin = 0.24 
+            xmax = 0.3 
+            text = "" 
+        intervals [4]:
+            xmin = 0.3 
+            xmax = 0.4 
+            text = "+" 
+        intervals [5]:
+            xmin = 0.4 
+            xmax = 0.66 
+            text = "" 
+        intervals [6]:
+            xmin = 0.66 
+            xmax = 0.9 
+            text = "+" 
+        intervals [7]:
+            xmin = 0.9 
+            xmax = 0.99 
+            text = "" 
+        intervals [8]:
+            xmin = 0.99 
+            xmax = 1.08 
+            text = "-" 
+        intervals [9]:
+            xmin = 1.08 
+            xmax = 1.11 
+            text = "" 

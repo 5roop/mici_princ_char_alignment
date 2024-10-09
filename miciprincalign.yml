@@ -86,6 +86,10 @@ dependencies:
   - zlib=1.2.13=h5eee18b_1
   - zstd=1.5.5=hc292b87_2
   - pip:
+      - parse==1.20.2
       - polars==1.8.2
+      - praat-parselmouth==0.4.4
       - praat-textgrids==1.4.0
+      - praatio==6.2.0
+      - typing-extensions==4.12.2
 prefix: /home/rupnik/anaconda3/envs/miciprincalign

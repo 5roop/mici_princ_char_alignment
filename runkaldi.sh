@@ -1,8 +1,8 @@
 tmpdir=kaldidebug/
 mkdir -p "$tmpdir"
 echo "speaker1 sampleid" >"$tmpdir"/spk2utt
-echo "sampleid output/MP_21_50.613-68.43.wav" >"$tmpdir"/wavscp
-echo "sampleid ta put se pojavila lisica bog daj bog daj ovdi san pod jabukun ka si ti jako si lipa ja san lisica hodi simo da se igramo tako san žalostan ne moren se s tobun igrat aš nisan pitoma " >"$tmpdir"/text
+echo "sampleid output/MP_15_125.41-168.8.wav" >"$tmpdir"/wavscp
+echo "sampleid ma vi ste geograf" >"$tmpdir"/text
 
 wavscp="$tmpdir"/wavscp
 spk2utt="$tmpdir"/spk2utt

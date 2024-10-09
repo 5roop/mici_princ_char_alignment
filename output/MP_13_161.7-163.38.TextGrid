@@ -4,7 +4,7 @@ Object class = "TextGrid"
 xmin = 0 
 xmax = 1.6600000000000001 
 tiers? <exists> 
-size = 2 
+size = 3 
 item []: 
     item [1]:
         class = "IntervalTier" 
@@ -111,6 +111,84 @@ item []:
             xmax = 1.62 
             text = "zvezd" 
         intervals [6]:
+            xmin = 1.62 
+            xmax = 1.6600000000000001 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "GraphAlign" 
+        xmin = 0 
+        xmax = 1.66 
+        intervals: size = 18 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.14 
+            text = "j" 
+        intervals [2]:
+            xmin = 0.14 
+            xmax = 0.35 
+            text = "a" 
+        intervals [3]:
+            xmin = 0.35 
+            xmax = 0.46 
+            text = "j" 
+        intervals [4]:
+            xmin = 0.46 
+            xmax = 0.5 
+            text = "u" 
+        intervals [5]:
+            xmin = 0.5 
+            xmax = 0.56 
+            text = "š" 
+        intervals [6]:
+            xmin = 0.56 
+            xmax = 0.64 
+            text = "t" 
+        intervals [7]:
+            xmin = 0.64 
+            xmax = 0.7 
+            text = "o" 
+        intervals [8]:
+            xmin = 0.7 
+            xmax = 0.77 
+            text = "t" 
+        intervals [9]:
+            xmin = 0.77 
+            xmax = 0.82 
+            text = "a" 
+        intervals [10]:
+            xmin = 0.82 
+            xmax = 0.92 
+            text = "k" 
+        intervals [11]:
+            xmin = 0.92 
+            xmax = 1.11 
+            text = "o" 
+        intervals [12]:
+            xmin = 1.11 
+            xmax = 1.21 
+            text = "" 
+        intervals [13]:
+            xmin = 1.21 
+            xmax = 1.33 
+            text = "z" 
+        intervals [14]:
+            xmin = 1.33 
+            xmax = 1.42 
+            text = "v" 
+        intervals [15]:
+            xmin = 1.42 
+            xmax = 1.56 
+            text = "e" 
+        intervals [16]:
+            xmin = 1.56 
+            xmax = 1.59 
+            text = "z" 
+        intervals [17]:
+            xmin = 1.59 
+            xmax = 1.62 
+            text = "d" 
+        intervals [18]:
             xmin = 1.62 
             xmax = 1.6600000000000001 
             text = "" 
