@@ -1,76 +1,76 @@
 File type = "ooTextFile"
 Object class = "TextGrid"
 
-xmin = 0.0
-xmax = 1.1
-tiers? <exists>
-size = 2
-item []:
+xmin = 0 
+xmax = 1.1 
+tiers? <exists> 
+size = 2 
+item []: 
     item [1]:
-        class = "IntervalTier"
-        name = "PhonAlign"
-        xmin = 0.0
-        xmax = 1.1
-        intervals: size = 10
-            intervals [1]:
-                xmin = 0.0
-                xmax = 0.1
-                text = "n_B"
-            intervals [2]:
-                xmin = 0.1
-                xmax = 0.23
-                text = "i_I"
-            intervals [3]:
-                xmin = 0.23
-                xmax = 0.4
-                text = "S_E"
-            intervals [4]:
-                xmin = 0.4
-                xmax = 0.43
-                text = "sp"
-            intervals [5]:
-                xmin = 0.43
-                xmax = 0.51
-                text = "m_B"
-            intervals [6]:
-                xmin = 0.51
-                xmax = 0.57
-                text = "o_I"
-            intervals [7]:
-                xmin = 0.57
-                xmax = 0.69
-                text = "j_I"
-            intervals [8]:
-                xmin = 0.69
-                xmax = 0.74
-                text = "e_E"
-            intervals [9]:
-                xmin = 0.74
-                xmax = 0.85
-                text = "s_B"
-            intervals [10]:
-                xmin = 0.85
-                xmax = 1.1
-                text = "u_E"
-    item [1]:
-        class = "IntervalTier"
-        name = "WordAlign"
-        xmin = 0.0
-        xmax = 1.1
-        intervals: size = 4
-            intervals [1]:
-                xmin = 0.0
-                xmax = 0.4
-                text = "niš"
-            intervals [2]:
-                xmin = 0.4
-                xmax = 0.43
-                text = ""
-            intervals [3]:
-                xmin = 0.43
-                xmax = 0.74
-                text = "moje"
-            intervals [4]:
-                xmin = 0.74
-                xmax = 1.1
-                text = "su"
+        class = "IntervalTier" 
+        name = "PhoneAlign" 
+        xmin = 0 
+        xmax = 1.1 
+        intervals: size = 10 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.1 
+            text = "n_B" 
+        intervals [2]:
+            xmin = 0.1 
+            xmax = 0.23 
+            text = "i_I" 
+        intervals [3]:
+            xmin = 0.23 
+            xmax = 0.4 
+            text = "S_E" 
+        intervals [4]:
+            xmin = 0.4 
+            xmax = 0.43 
+            text = "sp" 
+        intervals [5]:
+            xmin = 0.43 
+            xmax = 0.51 
+            text = "m_B" 
+        intervals [6]:
+            xmin = 0.51 
+            xmax = 0.57 
+            text = "o_I" 
+        intervals [7]:
+            xmin = 0.57 
+            xmax = 0.69 
+            text = "j_I" 
+        intervals [8]:
+            xmin = 0.69 
+            xmax = 0.74 
+            text = "e_E" 
+        intervals [9]:
+            xmin = 0.74 
+            xmax = 0.85 
+            text = "s_B" 
+        intervals [10]:
+            xmin = 0.85 
+            xmax = 1.1 
+            text = "u_E" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "WordAlign" 
+        xmin = 0 
+        xmax = 1.1 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.4 
+            text = "niš" 
+        intervals [2]:
+            xmin = 0.4 
+            xmax = 0.43 
+            text = "( )" 
+        intervals [3]:
+            xmin = 0.43 
+            xmax = 0.74 
+            text = "moje" 
+        intervals [4]:
+            xmin = 0.74 
+            xmax = 1.1 
+            text = "su" 

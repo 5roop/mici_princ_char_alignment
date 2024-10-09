@@ -1,88 +1,92 @@
 File type = "ooTextFile"
 Object class = "TextGrid"
 
-xmin = 0.0
-xmax = 0.97
-tiers? <exists>
-size = 2
-item []:
+xmin = 0 
+xmax = 0.97 
+tiers? <exists> 
+size = 2 
+item []: 
     item [1]:
-        class = "IntervalTier"
-        name = "PhonAlign"
-        xmin = 0.0
-        xmax = 0.97
-        intervals: size = 14
-            intervals [1]:
-                xmin = 0.0
-                xmax = 0.1
-                text = "z_B"
-            intervals [2]:
-                xmin = 0.1
-                xmax = 0.16
-                text = "v_I"
-            intervals [3]:
-                xmin = 0.16
-                xmax = 0.21
-                text = "i_I"
-            intervals [4]:
-                xmin = 0.21
-                xmax = 0.25
-                text = "z_I"
-            intervals [5]:
-                xmin = 0.25
-                xmax = 0.3
-                text = "d_I"
-            intervals [6]:
-                xmin = 0.3
-                xmax = 0.4
-                text = "e_E"
-            intervals [7]:
-                xmin = 0.4
-                xmax = 0.48
-                text = "s_B"
-            intervals [8]:
-                xmin = 0.48
-                xmax = 0.56
-                text = "u_E"
-            intervals [9]:
-                xmin = 0.56
-                xmax = 0.63
-                text = "t_B"
-            intervals [10]:
-                xmin = 0.63
-                xmax = 0.67
-                text = "v_I"
-            intervals [11]:
-                xmin = 0.67
-                xmax = 0.71
-                text = "o_I"
-            intervals [12]:
-                xmin = 0.71
-                xmax = 0.86
-                text = "j_I"
-            intervals [13]:
-                xmin = 0.86
-                xmax = 0.94
-                text = "e_E"
-            intervals [14]:
-                xmin = 0.94
-                xmax = 0.97
-                text = "sp"
-    item [1]:
-        class = "IntervalTier"
-        name = "WordAlign"
-        xmin = 0.0
-        xmax = 0.97
-        intervals: size = 3
-            intervals [1]:
-                xmin = 0.0
-                xmax = 0.4
-                text = "zvizde"
-            intervals [2]:
-                xmin = 0.4
-                xmax = 0.56
-                text = "su"
-            intervals [3]:
-                xmin = 0.56
-                xmax = 0.94
-                text = "tvoje"
+        class = "IntervalTier" 
+        name = "PhoneAlign" 
+        xmin = 0 
+        xmax = 0.97 
+        intervals: size = 14 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.1 
+            text = "z_B" 
+        intervals [2]:
+            xmin = 0.1 
+            xmax = 0.16 
+            text = "v_I" 
+        intervals [3]:
+            xmin = 0.16 
+            xmax = 0.21 
+            text = "i_I" 
+        intervals [4]:
+            xmin = 0.21 
+            xmax = 0.25 
+            text = "z_I" 
+        intervals [5]:
+            xmin = 0.25 
+            xmax = 0.3 
+            text = "d_I" 
+        intervals [6]:
+            xmin = 0.3 
+            xmax = 0.4 
+            text = "e_E" 
+        intervals [7]:
+            xmin = 0.4 
+            xmax = 0.48 
+            text = "s_B" 
+        intervals [8]:
+            xmin = 0.48 
+            xmax = 0.56 
+            text = "u_E" 
+        intervals [9]:
+            xmin = 0.56 
+            xmax = 0.63 
+            text = "t_B" 
+        intervals [10]:
+            xmin = 0.63 
+            xmax = 0.67 
+            text = "v_I" 
+        intervals [11]:
+            xmin = 0.67 
+            xmax = 0.71 
+            text = "o_I" 
+        intervals [12]:
+            xmin = 0.71 
+            xmax = 0.86 
+            text = "j_I" 
+        intervals [13]:
+            xmin = 0.86 
+            xmax = 0.94 
+            text = "e_E" 
+        intervals [14]:
+            xmin = 0.94 
+            xmax = 0.97 
+            text = "sp" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "WordAlign" 
+        xmin = 0 
+        xmax = 0.97 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.4 
+            text = "zvizde" 
+        intervals [2]:
+            xmin = 0.4 
+            xmax = 0.56 
+            text = "su" 
+        intervals [3]:
+            xmin = 0.56 
+            xmax = 0.94 
+            text = "tvoje" 
+        intervals [4]:
+            xmin = 0.94 
+            xmax = 0.97 
+            text = "" 

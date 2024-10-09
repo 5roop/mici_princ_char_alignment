@@ -10,8 +10,8 @@ except NameError:
     outfile = "brisi.TextGrid"
 
 import polars as pl
-import textgrids
-
+# import textgrids
+from praatio import textgrid
 df = (
     pl.read_csv(
         alignmentfile,
@@ -31,19 +31,18 @@ _, mins, maxs = (
     .reshape(-1)
 )
 
-tg = textgrids.TextGrid()
-tg.xmax = maxs
-tg.xmin = mins
-
+tg = textgrid.Textgrid()
 intervals = []
 for row in df.iter_rows(named=True):
     intervals.append(
-        textgrids.Interval(
-            text=row["phoneme"], xmin=round(row["start"], 2), xmax=round(row["end"], 2)
-        )
+        (
+             round(row["start"], 2),
+             round(row["end"], 2),
+             row["phoneme"]
+         )
     )
-tier = textgrids.Tier(data=intervals, xmax=maxs, xmin=mins)
-tg["PhonAlign"] = tier
+tier = textgrid.IntervalTier("PhoneAlign", intervals, mins, maxs)
+tg.addTier(tier)
 
 # Words:
 df = pl.read_csv(
@@ -56,49 +55,24 @@ df = pl.read_csv(
 intervals = []
 for row in df.iter_rows(named=True):
     try:
-        if (previous_end := intervals[-1].xmax) < row["start"]:
+        if (previous_end := intervals[-1][1]) < row["start"]:
                 intervals.append(
-                    textgrids.Interval(
-                        text="", xmin=round(previous_end, 2), xmax=round(row["start"], 2)
-                    )
+                    (
+                         round(previous_end, 2),
+                        round(row["start"], 2),
+                        "( )",
+                     )
                 )
     except IndexError:
          pass
     intervals.append(
-        textgrids.Interval(
-            text=row["word"], xmin=round(row["start"], 2), xmax=round(row["end"], 2)
+        (
+             round(row["start"], 2),
+             round(row["end"], 2),
+             row["word"],
         )
     )
-tier = textgrids.Tier(data=intervals, xmax=maxs, xmin=mins)
-tg["WordAlign"] = tier
+tier = textgrid.IntervalTier("WordAlign", intervals, mins, maxs)
+tg.addTier(tier)
 
-
-# # Graphemes:
-# df = pl.read_csv(
-#     graphemealignment,
-#     separator=" ",
-#     has_header=False,
-#     new_columns="sampleid channels start duration word idk idk2".split(),
-# ).with_columns(end=pl.col("start")+pl.col("duration"))
-
-# intervals = []
-# for row in df.iter_rows(named=True):
-#     try:
-#         if (previous_end := intervals[-1].xmax) < row["start"]:
-#                 intervals.append(
-#                     textgrids.Interval(
-#                         text="", xmin=round(previous_end, 2), xmax=round(row["start"], 2)
-#                     )
-#                 )
-#     except IndexError:
-#          pass
-#     intervals.append(
-#         textgrids.Interval(
-#             text=row["word"], xmin=round(row["start"], 2), xmax=round(row["end"], 2)
-#         )
-#     )
-# tier = textgrids.Tier(data=intervals, xmax=maxs, xmin=mins)
-# tg["CharAlign"] = tier
-
-
-tg.write(outfile)
+tg.save(outfile, format="long_textgrid", includeBlankSpaces=True)

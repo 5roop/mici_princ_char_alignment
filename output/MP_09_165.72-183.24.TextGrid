@@ -1,784 +1,788 @@
 File type = "ooTextFile"
 Object class = "TextGrid"
 
-xmin = 0.0
-xmax = 17.5
-tiers? <exists>
-size = 2
-item []:
+xmin = 0 
+xmax = 17.5 
+tiers? <exists> 
+size = 2 
+item []: 
     item [1]:
-        class = "IntervalTier"
-        name = "PhonAlign"
-        xmin = 0.0
-        xmax = 17.5
-        intervals: size = 143
-            intervals [1]:
-                xmin = 0.0
-                xmax = 0.08
-                text = "p_B"
-            intervals [2]:
-                xmin = 0.08
-                xmax = 0.24
-                text = "a_I"
-            intervals [3]:
-                xmin = 0.24
-                xmax = 0.45
-                text = "tS_I"
-            intervals [4]:
-                xmin = 0.45
-                xmax = 0.7
-                text = "e_E"
-            intervals [5]:
-                xmin = 0.7
-                xmax = 1.05
-                text = "sp"
-            intervals [6]:
-                xmin = 1.05
-                xmax = 1.19
-                text = "j_B"
-            intervals [7]:
-                xmin = 1.19
-                xmax = 1.28
-                text = "a_E"
-            intervals [8]:
-                xmin = 1.28
-                xmax = 1.37
-                text = "t_B"
-            intervals [9]:
-                xmin = 1.37
-                xmax = 1.48
-                text = "e_E"
-            intervals [10]:
-                xmin = 1.48
-                xmax = 1.61
-                text = "v_B"
-            intervals [11]:
-                xmin = 1.61
-                xmax = 1.72
-                text = "o_I"
-            intervals [12]:
-                xmin = 1.72
-                xmax = 1.81
-                text = "l_I"
-            intervals [13]:
-                xmin = 1.81
-                xmax = 1.91
-                text = "i_I"
-            intervals [14]:
-                xmin = 1.91
-                xmax = 2.07
-                text = "n_E"
-            intervals [15]:
-                xmin = 2.07
-                xmax = 2.9
-                text = "sp"
-            intervals [16]:
-                xmin = 2.9
-                xmax = 3.17
-                text = "m_B"
-            intervals [17]:
-                xmin = 3.17
-                xmax = 3.36
-                text = "o_I"
-            intervals [18]:
-                xmin = 3.36
-                xmax = 3.41
-                text = "j_E"
-            intervals [19]:
-                xmin = 3.41
-                xmax = 3.44
-                text = "j_B"
-            intervals [20]:
-                xmin = 3.44
-                xmax = 3.5
-                text = "e_E"
-            intervals [21]:
-                xmin = 3.5
-                xmax = 3.6
-                text = "g_B"
-            intervals [22]:
-                xmin = 3.6
-                xmax = 3.66
-                text = "r_I"
-            intervals [23]:
-                xmin = 3.66
-                xmax = 3.84
-                text = "e_I"
-            intervals [24]:
-                xmin = 3.84
-                xmax = 3.91
-                text = "x_E"
-            intervals [25]:
-                xmin = 3.91
-                xmax = 4.01
-                text = "tS_B"
-            intervals [26]:
-                xmin = 4.01
-                xmax = 4.09
-                text = "a_E"
-            intervals [27]:
-                xmin = 4.09
-                xmax = 4.2
-                text = "o_S"
-            intervals [28]:
-                xmin = 4.2
-                xmax = 4.29
-                text = "t_B"
-            intervals [29]:
-                xmin = 4.29
-                xmax = 4.4
-                text = "e_I"
-            intervals [30]:
-                xmin = 4.4
-                xmax = 4.43
-                text = "n_E"
-            intervals [31]:
-                xmin = 4.43
-                xmax = 4.47
-                text = "n_B"
-            intervals [32]:
-                xmin = 4.47
-                xmax = 4.55
-                text = "i_I"
-            intervals [33]:
-                xmin = 4.55
-                xmax = 4.63
-                text = "s_I"
-            intervals [34]:
-                xmin = 4.63
-                xmax = 4.7
-                text = "i_E"
-            intervals [35]:
-                xmin = 4.7
-                xmax = 4.79
-                text = "n_B"
-            intervals [36]:
-                xmin = 4.79
-                xmax = 4.87
-                text = "i_I"
-            intervals [37]:
-                xmin = 4.87
-                xmax = 4.9
-                text = "S_E"
-            intervals [38]:
-                xmin = 4.9
-                xmax = 5.03
-                text = "z_B"
-            intervals [39]:
-                xmin = 5.03
-                xmax = 5.15
-                text = "n_I"
-            intervals [40]:
-                xmin = 5.15
-                xmax = 5.35
-                text = "a_I"
-            intervals [41]:
-                xmin = 5.35
-                xmax = 5.44
-                text = "l_E"
-            intervals [42]:
-                xmin = 5.44
-                xmax = 6.07
-                text = "sp"
-            intervals [43]:
-                xmin = 6.07
-                xmax = 6.26
-                text = "m_B"
-            intervals [44]:
-                xmin = 6.26
-                xmax = 6.33
-                text = "a_E"
-            intervals [45]:
-                xmin = 6.33
-                xmax = 6.4
-                text = "n_B"
-            intervals [46]:
-                xmin = 6.4
-                xmax = 6.46
-                text = "e_E"
-            intervals [47]:
-                xmin = 6.46
-                xmax = 6.52
-                text = "b_B"
-            intervals [48]:
-                xmin = 6.52
-                xmax = 6.58
-                text = "a_I"
-            intervals [49]:
-                xmin = 6.58
-                xmax = 6.69
-                text = "ts_I"
-            intervals [50]:
-                xmin = 6.69
-                xmax = 6.74
-                text = "i_I"
-            intervals [51]:
-                xmin = 6.74
-                xmax = 6.84
-                text = "l_I"
-            intervals [52]:
-                xmin = 6.84
-                xmax = 6.98
-                text = "a_I"
-            intervals [53]:
-                xmin = 6.98
-                xmax = 7.02
-                text = "j_E"
-            intervals [54]:
-                xmin = 7.02
-                xmax = 7.07
-                text = "o_B"
-            intervals [55]:
-                xmin = 7.07
-                xmax = 7.16
-                text = "k_I"
-            intervals [56]:
-                xmin = 7.16
-                xmax = 7.23
-                text = "o_E"
-            intervals [57]:
-                xmin = 7.23
-                xmax = 7.34
-                text = "t_B"
-            intervals [58]:
-                xmin = 7.34
-                xmax = 7.49
-                text = "o_I"
-            intervals [59]:
-                xmin = 7.49
-                xmax = 7.56
-                text = "g_I"
-            intervals [60]:
-                xmin = 7.56
-                xmax = 7.67
-                text = "a_E"
-            intervals [61]:
-                xmin = 7.67
-                xmax = 8.69
-                text = "sp"
-            intervals [62]:
-                xmin = 8.69
-                xmax = 9.03
-                text = "a_B"
-            intervals [63]:
-                xmin = 9.03
-                xmax = 9.1
-                text = "l_I"
-            intervals [64]:
-                xmin = 9.1
-                xmax = 9.74
-                text = "e_E"
-            intervals [65]:
-                xmin = 9.74
-                xmax = 9.85
-                text = "sp"
-            intervals [66]:
-                xmin = 9.85
-                xmax = 10.07
-                text = "i_S"
-            intervals [67]:
-                xmin = 10.07
-                xmax = 10.11
-                text = "t_B"
-            intervals [68]:
-                xmin = 10.11
-                xmax = 10.23
-                text = "i_E"
-            intervals [69]:
-                xmin = 10.23
-                xmax = 10.29
-                text = "s_B"
-            intervals [70]:
-                xmin = 10.29
-                xmax = 10.37
-                text = "i_E"
-            intervals [71]:
-                xmin = 10.37
-                xmax = 10.42
-                text = "b_B"
-            intervals [72]:
-                xmin = 10.42
-                xmax = 10.48
-                text = "i_I"
-            intervals [73]:
-                xmin = 10.48
-                xmax = 10.54
-                text = "l_E"
-            intervals [74]:
-                xmin = 10.54
-                xmax = 10.62
-                text = "j_B"
-            intervals [75]:
-                xmin = 10.62
-                xmax = 10.68
-                text = "e_I"
-            intervals [76]:
-                xmin = 10.68
-                xmax = 10.75
-                text = "n_I"
-            intervals [77]:
-                xmin = 10.75
-                xmax = 10.81
-                text = "a_I"
-            intervals [78]:
-                xmin = 10.81
-                xmax = 10.88
-                text = "k_I"
-            intervals [79]:
-                xmin = 10.88
-                xmax = 10.95
-                text = "o_E"
-            intervals [80]:
-                xmin = 10.95
-                xmax = 11.01
-                text = "b_B"
-            intervals [81]:
-                xmin = 11.01
-                xmax = 11.11
-                text = "e_I"
-            intervals [82]:
-                xmin = 11.11
-                xmax = 11.16
-                text = "d_I"
-            intervals [83]:
-                xmin = 11.16
-                xmax = 11.23
-                text = "a_I"
-            intervals [84]:
-                xmin = 11.23
-                xmax = 11.3
-                text = "s_I"
-            intervals [85]:
-                xmin = 11.3
-                xmax = 11.33
-                text = "t_E"
-            intervals [86]:
-                xmin = 11.33
-                xmax = 11.38
-                text = "k_B"
-            intervals [87]:
-                xmin = 11.38
-                xmax = 11.46
-                text = "o_I"
-            intervals [88]:
-                xmin = 11.46
-                xmax = 11.52
-                text = "d_E"
-            intervals [89]:
-                xmin = 11.52
-                xmax = 11.66
-                text = "i_S"
-            intervals [90]:
-                xmin = 11.66
-                xmax = 11.72
-                text = "j_B"
-            intervals [91]:
-                xmin = 11.72
-                xmax = 11.91
-                text = "a_E"
-            intervals [92]:
-                xmin = 11.91
-                xmax = 13.04
-                text = "sp"
-            intervals [93]:
-                xmin = 13.04
-                xmax = 13.1
-                text = "p_B"
-            intervals [94]:
-                xmin = 13.1
-                xmax = 13.16
-                text = "r_I"
-            intervals [95]:
-                xmin = 13.16
-                xmax = 13.25
-                text = "o_I"
-            intervals [96]:
-                xmin = 13.25
-                xmax = 13.35
-                text = "v_I"
-            intervals [97]:
-                xmin = 13.35
-                xmax = 13.5
-                text = "a_I"
-            intervals [98]:
-                xmin = 13.5
-                xmax = 13.56
-                text = "j_E"
-            intervals [99]:
-                xmin = 13.56
-                xmax = 13.6
-                text = "b_B"
-            intervals [100]:
-                xmin = 13.6
-                xmax = 13.66
-                text = "i_I"
-            intervals [101]:
-                xmin = 13.66
-                xmax = 13.71
-                text = "t_E"
-            intervals [102]:
-                xmin = 13.71
-                xmax = 13.79
-                text = "s_B"
-            intervals [103]:
-                xmin = 13.79
-                xmax = 13.88
-                text = "r_I"
-            intervals [104]:
-                xmin = 13.88
-                xmax = 13.98
-                text = "i_I"
-            intervals [105]:
-                xmin = 13.98
-                xmax = 14.07
-                text = "tcp_I"
-            intervals [106]:
-                xmin = 14.07
-                xmax = 14.2
-                text = "a_I"
-            intervals [107]:
-                xmin = 14.2
-                xmax = 14.31
-                text = "n_E"
-            intervals [108]:
-                xmin = 14.31
-                xmax = 14.43
-                text = "sp"
-            intervals [109]:
-                xmin = 14.43
-                xmax = 14.61
-                text = "i_S"
-            intervals [110]:
-                xmin = 14.61
-                xmax = 14.67
-                text = "p_B"
-            intervals [111]:
-                xmin = 14.67
-                xmax = 14.75
-                text = "u_I"
-            intervals [112]:
-                xmin = 14.75
-                xmax = 14.88
-                text = "S_I"
-            intervals [113]:
-                xmin = 14.88
-                xmax = 14.95
-                text = "tcp_I"
-            intervals [114]:
-                xmin = 14.95
-                xmax = 15.11
-                text = "a_I"
-            intervals [115]:
-                xmin = 15.11
-                xmax = 15.19
-                text = "j_E"
-            intervals [116]:
-                xmin = 15.19
-                xmax = 15.25
-                text = "t_B"
-            intervals [117]:
-                xmin = 15.25
-                xmax = 15.33
-                text = "a_E"
-            intervals [118]:
-                xmin = 15.33
-                xmax = 15.37
-                text = "s_B"
-            intervals [119]:
-                xmin = 15.37
-                xmax = 15.44
-                text = "t_I"
-            intervals [120]:
-                xmin = 15.44
-                xmax = 15.49
-                text = "a_I"
-            intervals [121]:
-                xmin = 15.49
-                xmax = 15.58
-                text = "k_I"
-            intervals [122]:
-                xmin = 15.58
-                xmax = 15.66
-                text = "l_I"
-            intervals [123]:
-                xmin = 15.66
-                xmax = 15.75
-                text = "e_I"
-            intervals [124]:
-                xmin = 15.75
-                xmax = 15.81
-                text = "n_I"
-            intervals [125]:
-                xmin = 15.81
-                xmax = 15.88
-                text = "i_E"
-            intervals [126]:
-                xmin = 15.88
-                xmax = 15.96
-                text = "z_B"
-            intervals [127]:
-                xmin = 15.96
-                xmax = 16.1
-                text = "v_I"
-            intervals [128]:
-                xmin = 16.1
-                xmax = 16.23
-                text = "o_I"
-            intervals [129]:
-                xmin = 16.23
-                xmax = 16.38
-                text = "n_E"
-            intervals [130]:
-                xmin = 16.38
-                xmax = 16.54
-                text = "sp"
-            intervals [131]:
-                xmin = 16.54
-                xmax = 16.67
-                text = "n_B"
-            intervals [132]:
-                xmin = 16.67
-                xmax = 16.75
-                text = "e_E"
-            intervals [133]:
-                xmin = 16.75
-                xmax = 16.8
-                text = "Z_B"
-            intervals [134]:
-                xmin = 16.8
-                xmax = 16.88
-                text = "e_I"
-            intervals [135]:
-                xmin = 16.88
-                xmax = 16.95
-                text = "l_I"
-            intervals [136]:
-                xmin = 16.95
-                xmax = 17.12
-                text = "i_I"
-            intervals [137]:
-                xmin = 17.12
-                xmax = 17.15
-                text = "n_E"
-            intervals [138]:
-                xmin = 17.15
-                xmax = 17.18
-                text = "g_B"
-            intervals [139]:
-                xmin = 17.18
-                xmax = 17.27
-                text = "a_E"
-            intervals [140]:
-                xmin = 17.27
-                xmax = 17.34
-                text = "v_B"
-            intervals [141]:
-                xmin = 17.34
-                xmax = 17.44
-                text = "e_I"
-            intervals [142]:
-                xmin = 17.44
-                xmax = 17.47
-                text = "tcp_E"
-            intervals [143]:
-                xmin = 17.47
-                xmax = 17.5
-                text = "sp"
-    item [1]:
-        class = "IntervalTier"
-        name = "WordAlign"
-        xmin = 0.0
-        xmax = 17.5
-        intervals: size = 48
-            intervals [1]:
-                xmin = 0.0
-                xmax = 0.7
-                text = "pače"
-            intervals [2]:
-                xmin = 0.7
-                xmax = 1.05
-                text = ""
-            intervals [3]:
-                xmin = 1.05
-                xmax = 1.28
-                text = "ja"
-            intervals [4]:
-                xmin = 1.28
-                xmax = 1.48
-                text = "te"
-            intervals [5]:
-                xmin = 1.48
-                xmax = 2.07
-                text = "volin"
-            intervals [6]:
-                xmin = 2.07
-                xmax = 2.9
-                text = ""
-            intervals [7]:
-                xmin = 2.9
-                xmax = 3.41
-                text = "moj"
-            intervals [8]:
-                xmin = 3.41
-                xmax = 3.5
-                text = "je"
-            intervals [9]:
-                xmin = 3.5
-                xmax = 3.91
-                text = "greh"
-            intervals [10]:
-                xmin = 3.91
-                xmax = 4.09
-                text = "ča"
-            intervals [11]:
-                xmin = 4.09
-                xmax = 4.2
-                text = "o"
-            intervals [12]:
-                xmin = 4.2
-                xmax = 4.43
-                text = "ten"
-            intervals [13]:
-                xmin = 4.43
-                xmax = 4.7
-                text = "nisi"
-            intervals [14]:
-                xmin = 4.7
-                xmax = 4.9
-                text = "niš"
-            intervals [15]:
-                xmin = 4.9
-                xmax = 5.44
-                text = "znal"
-            intervals [16]:
-                xmin = 5.44
-                xmax = 6.07
-                text = ""
-            intervals [17]:
-                xmin = 6.07
-                xmax = 6.33
-                text = "ma"
-            intervals [18]:
-                xmin = 6.33
-                xmax = 6.46
-                text = "ne"
-            intervals [19]:
-                xmin = 6.46
-                xmax = 7.02
-                text = "bacilaj"
-            intervals [20]:
-                xmin = 7.02
-                xmax = 7.23
-                text = "oko"
-            intervals [21]:
-                xmin = 7.23
-                xmax = 7.67
-                text = "toga"
-            intervals [22]:
-                xmin = 7.67
-                xmax = 8.69
-                text = ""
-            intervals [23]:
-                xmin = 8.69
-                xmax = 9.74
-                text = "ale"
-            intervals [24]:
-                xmin = 9.74
-                xmax = 9.85
-                text = ""
-            intervals [25]:
-                xmin = 9.85
-                xmax = 10.07
-                text = "i"
-            intervals [26]:
-                xmin = 10.07
-                xmax = 10.23
-                text = "ti"
-            intervals [27]:
-                xmin = 10.23
-                xmax = 10.37
-                text = "si"
-            intervals [28]:
-                xmin = 10.37
-                xmax = 10.54
-                text = "bil"
-            intervals [29]:
-                xmin = 10.54
-                xmax = 10.95
-                text = "jenako"
-            intervals [30]:
-                xmin = 10.95
-                xmax = 11.33
-                text = "bedast"
-            intervals [31]:
-                xmin = 11.33
-                xmax = 11.52
-                text = "kod"
-            intervals [32]:
-                xmin = 11.52
-                xmax = 11.66
-                text = "i"
-            intervals [33]:
-                xmin = 11.66
-                xmax = 11.91
-                text = "ja"
-            intervals [34]:
-                xmin = 11.91
-                xmax = 13.04
-                text = ""
-            intervals [35]:
-                xmin = 13.04
-                xmax = 13.56
-                text = "provaj"
-            intervals [36]:
-                xmin = 13.56
-                xmax = 13.71
-                text = "bit"
-            intervals [37]:
-                xmin = 13.71
-                xmax = 14.31
-                text = "srićan"
-            intervals [38]:
-                xmin = 14.31
-                xmax = 14.43
-                text = ""
-            intervals [39]:
-                xmin = 14.43
-                xmax = 14.61
-                text = "i"
-            intervals [40]:
-                xmin = 14.61
-                xmax = 15.19
-                text = "pušćaj"
-            intervals [41]:
-                xmin = 15.19
-                xmax = 15.33
-                text = "ta"
-            intervals [42]:
-                xmin = 15.33
-                xmax = 15.88
-                text = "stakleni"
-            intervals [43]:
-                xmin = 15.88
-                xmax = 16.38
-                text = "zvon"
-            intervals [44]:
-                xmin = 16.38
-                xmax = 16.54
-                text = ""
-            intervals [45]:
-                xmin = 16.54
-                xmax = 16.75
-                text = "ne"
-            intervals [46]:
-                xmin = 16.75
-                xmax = 17.15
-                text = "želin"
-            intervals [47]:
-                xmin = 17.15
-                xmax = 17.27
-                text = "ga"
-            intervals [48]:
-                xmin = 17.27
-                xmax = 17.47
-                text = "već"
+        class = "IntervalTier" 
+        name = "PhoneAlign" 
+        xmin = 0 
+        xmax = 17.5 
+        intervals: size = 143 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.08 
+            text = "p_B" 
+        intervals [2]:
+            xmin = 0.08 
+            xmax = 0.24 
+            text = "a_I" 
+        intervals [3]:
+            xmin = 0.24 
+            xmax = 0.45 
+            text = "tS_I" 
+        intervals [4]:
+            xmin = 0.45 
+            xmax = 0.7 
+            text = "e_E" 
+        intervals [5]:
+            xmin = 0.7 
+            xmax = 1.05 
+            text = "sp" 
+        intervals [6]:
+            xmin = 1.05 
+            xmax = 1.19 
+            text = "j_B" 
+        intervals [7]:
+            xmin = 1.19 
+            xmax = 1.28 
+            text = "a_E" 
+        intervals [8]:
+            xmin = 1.28 
+            xmax = 1.37 
+            text = "t_B" 
+        intervals [9]:
+            xmin = 1.37 
+            xmax = 1.48 
+            text = "e_E" 
+        intervals [10]:
+            xmin = 1.48 
+            xmax = 1.61 
+            text = "v_B" 
+        intervals [11]:
+            xmin = 1.61 
+            xmax = 1.72 
+            text = "o_I" 
+        intervals [12]:
+            xmin = 1.72 
+            xmax = 1.81 
+            text = "l_I" 
+        intervals [13]:
+            xmin = 1.81 
+            xmax = 1.91 
+            text = "i_I" 
+        intervals [14]:
+            xmin = 1.91 
+            xmax = 2.07 
+            text = "n_E" 
+        intervals [15]:
+            xmin = 2.07 
+            xmax = 2.9 
+            text = "sp" 
+        intervals [16]:
+            xmin = 2.9 
+            xmax = 3.17 
+            text = "m_B" 
+        intervals [17]:
+            xmin = 3.17 
+            xmax = 3.36 
+            text = "o_I" 
+        intervals [18]:
+            xmin = 3.36 
+            xmax = 3.41 
+            text = "j_E" 
+        intervals [19]:
+            xmin = 3.41 
+            xmax = 3.44 
+            text = "j_B" 
+        intervals [20]:
+            xmin = 3.44 
+            xmax = 3.5 
+            text = "e_E" 
+        intervals [21]:
+            xmin = 3.5 
+            xmax = 3.6 
+            text = "g_B" 
+        intervals [22]:
+            xmin = 3.6 
+            xmax = 3.66 
+            text = "r_I" 
+        intervals [23]:
+            xmin = 3.66 
+            xmax = 3.84 
+            text = "e_I" 
+        intervals [24]:
+            xmin = 3.84 
+            xmax = 3.91 
+            text = "x_E" 
+        intervals [25]:
+            xmin = 3.91 
+            xmax = 4.01 
+            text = "tS_B" 
+        intervals [26]:
+            xmin = 4.01 
+            xmax = 4.09 
+            text = "a_E" 
+        intervals [27]:
+            xmin = 4.09 
+            xmax = 4.2 
+            text = "o_S" 
+        intervals [28]:
+            xmin = 4.2 
+            xmax = 4.29 
+            text = "t_B" 
+        intervals [29]:
+            xmin = 4.29 
+            xmax = 4.4 
+            text = "e_I" 
+        intervals [30]:
+            xmin = 4.4 
+            xmax = 4.43 
+            text = "n_E" 
+        intervals [31]:
+            xmin = 4.43 
+            xmax = 4.47 
+            text = "n_B" 
+        intervals [32]:
+            xmin = 4.47 
+            xmax = 4.55 
+            text = "i_I" 
+        intervals [33]:
+            xmin = 4.55 
+            xmax = 4.63 
+            text = "s_I" 
+        intervals [34]:
+            xmin = 4.63 
+            xmax = 4.7 
+            text = "i_E" 
+        intervals [35]:
+            xmin = 4.7 
+            xmax = 4.79 
+            text = "n_B" 
+        intervals [36]:
+            xmin = 4.79 
+            xmax = 4.87 
+            text = "i_I" 
+        intervals [37]:
+            xmin = 4.87 
+            xmax = 4.9 
+            text = "S_E" 
+        intervals [38]:
+            xmin = 4.9 
+            xmax = 5.03 
+            text = "z_B" 
+        intervals [39]:
+            xmin = 5.03 
+            xmax = 5.15 
+            text = "n_I" 
+        intervals [40]:
+            xmin = 5.15 
+            xmax = 5.35 
+            text = "a_I" 
+        intervals [41]:
+            xmin = 5.35 
+            xmax = 5.44 
+            text = "l_E" 
+        intervals [42]:
+            xmin = 5.44 
+            xmax = 6.07 
+            text = "sp" 
+        intervals [43]:
+            xmin = 6.07 
+            xmax = 6.26 
+            text = "m_B" 
+        intervals [44]:
+            xmin = 6.26 
+            xmax = 6.33 
+            text = "a_E" 
+        intervals [45]:
+            xmin = 6.33 
+            xmax = 6.4 
+            text = "n_B" 
+        intervals [46]:
+            xmin = 6.4 
+            xmax = 6.46 
+            text = "e_E" 
+        intervals [47]:
+            xmin = 6.46 
+            xmax = 6.52 
+            text = "b_B" 
+        intervals [48]:
+            xmin = 6.52 
+            xmax = 6.58 
+            text = "a_I" 
+        intervals [49]:
+            xmin = 6.58 
+            xmax = 6.69 
+            text = "ts_I" 
+        intervals [50]:
+            xmin = 6.69 
+            xmax = 6.74 
+            text = "i_I" 
+        intervals [51]:
+            xmin = 6.74 
+            xmax = 6.84 
+            text = "l_I" 
+        intervals [52]:
+            xmin = 6.84 
+            xmax = 6.98 
+            text = "a_I" 
+        intervals [53]:
+            xmin = 6.98 
+            xmax = 7.02 
+            text = "j_E" 
+        intervals [54]:
+            xmin = 7.02 
+            xmax = 7.07 
+            text = "o_B" 
+        intervals [55]:
+            xmin = 7.07 
+            xmax = 7.16 
+            text = "k_I" 
+        intervals [56]:
+            xmin = 7.16 
+            xmax = 7.23 
+            text = "o_E" 
+        intervals [57]:
+            xmin = 7.23 
+            xmax = 7.34 
+            text = "t_B" 
+        intervals [58]:
+            xmin = 7.34 
+            xmax = 7.49 
+            text = "o_I" 
+        intervals [59]:
+            xmin = 7.49 
+            xmax = 7.56 
+            text = "g_I" 
+        intervals [60]:
+            xmin = 7.56 
+            xmax = 7.67 
+            text = "a_E" 
+        intervals [61]:
+            xmin = 7.67 
+            xmax = 8.69 
+            text = "sp" 
+        intervals [62]:
+            xmin = 8.69 
+            xmax = 9.03 
+            text = "a_B" 
+        intervals [63]:
+            xmin = 9.03 
+            xmax = 9.1 
+            text = "l_I" 
+        intervals [64]:
+            xmin = 9.1 
+            xmax = 9.74 
+            text = "e_E" 
+        intervals [65]:
+            xmin = 9.74 
+            xmax = 9.85 
+            text = "sp" 
+        intervals [66]:
+            xmin = 9.85 
+            xmax = 10.07 
+            text = "i_S" 
+        intervals [67]:
+            xmin = 10.07 
+            xmax = 10.11 
+            text = "t_B" 
+        intervals [68]:
+            xmin = 10.11 
+            xmax = 10.23 
+            text = "i_E" 
+        intervals [69]:
+            xmin = 10.23 
+            xmax = 10.29 
+            text = "s_B" 
+        intervals [70]:
+            xmin = 10.29 
+            xmax = 10.37 
+            text = "i_E" 
+        intervals [71]:
+            xmin = 10.37 
+            xmax = 10.42 
+            text = "b_B" 
+        intervals [72]:
+            xmin = 10.42 
+            xmax = 10.48 
+            text = "i_I" 
+        intervals [73]:
+            xmin = 10.48 
+            xmax = 10.54 
+            text = "l_E" 
+        intervals [74]:
+            xmin = 10.54 
+            xmax = 10.62 
+            text = "j_B" 
+        intervals [75]:
+            xmin = 10.62 
+            xmax = 10.68 
+            text = "e_I" 
+        intervals [76]:
+            xmin = 10.68 
+            xmax = 10.75 
+            text = "n_I" 
+        intervals [77]:
+            xmin = 10.75 
+            xmax = 10.81 
+            text = "a_I" 
+        intervals [78]:
+            xmin = 10.81 
+            xmax = 10.88 
+            text = "k_I" 
+        intervals [79]:
+            xmin = 10.88 
+            xmax = 10.95 
+            text = "o_E" 
+        intervals [80]:
+            xmin = 10.95 
+            xmax = 11.01 
+            text = "b_B" 
+        intervals [81]:
+            xmin = 11.01 
+            xmax = 11.11 
+            text = "e_I" 
+        intervals [82]:
+            xmin = 11.11 
+            xmax = 11.16 
+            text = "d_I" 
+        intervals [83]:
+            xmin = 11.16 
+            xmax = 11.23 
+            text = "a_I" 
+        intervals [84]:
+            xmin = 11.23 
+            xmax = 11.3 
+            text = "s_I" 
+        intervals [85]:
+            xmin = 11.3 
+            xmax = 11.33 
+            text = "t_E" 
+        intervals [86]:
+            xmin = 11.33 
+            xmax = 11.38 
+            text = "k_B" 
+        intervals [87]:
+            xmin = 11.38 
+            xmax = 11.46 
+            text = "o_I" 
+        intervals [88]:
+            xmin = 11.46 
+            xmax = 11.52 
+            text = "d_E" 
+        intervals [89]:
+            xmin = 11.52 
+            xmax = 11.66 
+            text = "i_S" 
+        intervals [90]:
+            xmin = 11.66 
+            xmax = 11.72 
+            text = "j_B" 
+        intervals [91]:
+            xmin = 11.72 
+            xmax = 11.91 
+            text = "a_E" 
+        intervals [92]:
+            xmin = 11.91 
+            xmax = 13.04 
+            text = "sp" 
+        intervals [93]:
+            xmin = 13.04 
+            xmax = 13.1 
+            text = "p_B" 
+        intervals [94]:
+            xmin = 13.1 
+            xmax = 13.16 
+            text = "r_I" 
+        intervals [95]:
+            xmin = 13.16 
+            xmax = 13.25 
+            text = "o_I" 
+        intervals [96]:
+            xmin = 13.25 
+            xmax = 13.35 
+            text = "v_I" 
+        intervals [97]:
+            xmin = 13.35 
+            xmax = 13.5 
+            text = "a_I" 
+        intervals [98]:
+            xmin = 13.5 
+            xmax = 13.56 
+            text = "j_E" 
+        intervals [99]:
+            xmin = 13.56 
+            xmax = 13.6 
+            text = "b_B" 
+        intervals [100]:
+            xmin = 13.6 
+            xmax = 13.66 
+            text = "i_I" 
+        intervals [101]:
+            xmin = 13.66 
+            xmax = 13.71 
+            text = "t_E" 
+        intervals [102]:
+            xmin = 13.71 
+            xmax = 13.79 
+            text = "s_B" 
+        intervals [103]:
+            xmin = 13.79 
+            xmax = 13.88 
+            text = "r_I" 
+        intervals [104]:
+            xmin = 13.88 
+            xmax = 13.98 
+            text = "i_I" 
+        intervals [105]:
+            xmin = 13.98 
+            xmax = 14.07 
+            text = "tcp_I" 
+        intervals [106]:
+            xmin = 14.07 
+            xmax = 14.2 
+            text = "a_I" 
+        intervals [107]:
+            xmin = 14.2 
+            xmax = 14.31 
+            text = "n_E" 
+        intervals [108]:
+            xmin = 14.31 
+            xmax = 14.43 
+            text = "sp" 
+        intervals [109]:
+            xmin = 14.43 
+            xmax = 14.61 
+            text = "i_S" 
+        intervals [110]:
+            xmin = 14.61 
+            xmax = 14.67 
+            text = "p_B" 
+        intervals [111]:
+            xmin = 14.67 
+            xmax = 14.75 
+            text = "u_I" 
+        intervals [112]:
+            xmin = 14.75 
+            xmax = 14.88 
+            text = "S_I" 
+        intervals [113]:
+            xmin = 14.88 
+            xmax = 14.95 
+            text = "tcp_I" 
+        intervals [114]:
+            xmin = 14.95 
+            xmax = 15.11 
+            text = "a_I" 
+        intervals [115]:
+            xmin = 15.11 
+            xmax = 15.19 
+            text = "j_E" 
+        intervals [116]:
+            xmin = 15.19 
+            xmax = 15.25 
+            text = "t_B" 
+        intervals [117]:
+            xmin = 15.25 
+            xmax = 15.33 
+            text = "a_E" 
+        intervals [118]:
+            xmin = 15.33 
+            xmax = 15.37 
+            text = "s_B" 
+        intervals [119]:
+            xmin = 15.37 
+            xmax = 15.44 
+            text = "t_I" 
+        intervals [120]:
+            xmin = 15.44 
+            xmax = 15.49 
+            text = "a_I" 
+        intervals [121]:
+            xmin = 15.49 
+            xmax = 15.58 
+            text = "k_I" 
+        intervals [122]:
+            xmin = 15.58 
+            xmax = 15.66 
+            text = "l_I" 
+        intervals [123]:
+            xmin = 15.66 
+            xmax = 15.75 
+            text = "e_I" 
+        intervals [124]:
+            xmin = 15.75 
+            xmax = 15.81 
+            text = "n_I" 
+        intervals [125]:
+            xmin = 15.81 
+            xmax = 15.88 
+            text = "i_E" 
+        intervals [126]:
+            xmin = 15.88 
+            xmax = 15.96 
+            text = "z_B" 
+        intervals [127]:
+            xmin = 15.96 
+            xmax = 16.1 
+            text = "v_I" 
+        intervals [128]:
+            xmin = 16.1 
+            xmax = 16.23 
+            text = "o_I" 
+        intervals [129]:
+            xmin = 16.23 
+            xmax = 16.38 
+            text = "n_E" 
+        intervals [130]:
+            xmin = 16.38 
+            xmax = 16.54 
+            text = "sp" 
+        intervals [131]:
+            xmin = 16.54 
+            xmax = 16.67 
+            text = "n_B" 
+        intervals [132]:
+            xmin = 16.67 
+            xmax = 16.75 
+            text = "e_E" 
+        intervals [133]:
+            xmin = 16.75 
+            xmax = 16.8 
+            text = "Z_B" 
+        intervals [134]:
+            xmin = 16.8 
+            xmax = 16.88 
+            text = "e_I" 
+        intervals [135]:
+            xmin = 16.88 
+            xmax = 16.95 
+            text = "l_I" 
+        intervals [136]:
+            xmin = 16.95 
+            xmax = 17.12 
+            text = "i_I" 
+        intervals [137]:
+            xmin = 17.12 
+            xmax = 17.15 
+            text = "n_E" 
+        intervals [138]:
+            xmin = 17.15 
+            xmax = 17.18 
+            text = "g_B" 
+        intervals [139]:
+            xmin = 17.18 
+            xmax = 17.27 
+            text = "a_E" 
+        intervals [140]:
+            xmin = 17.27 
+            xmax = 17.34 
+            text = "v_B" 
+        intervals [141]:
+            xmin = 17.34 
+            xmax = 17.44 
+            text = "e_I" 
+        intervals [142]:
+            xmin = 17.44 
+            xmax = 17.47 
+            text = "tcp_E" 
+        intervals [143]:
+            xmin = 17.47 
+            xmax = 17.5 
+            text = "sp" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "WordAlign" 
+        xmin = 0 
+        xmax = 17.5 
+        intervals: size = 49 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.7 
+            text = "pače" 
+        intervals [2]:
+            xmin = 0.7 
+            xmax = 1.05 
+            text = "( )" 
+        intervals [3]:
+            xmin = 1.05 
+            xmax = 1.28 
+            text = "ja" 
+        intervals [4]:
+            xmin = 1.28 
+            xmax = 1.48 
+            text = "te" 
+        intervals [5]:
+            xmin = 1.48 
+            xmax = 2.07 
+            text = "volin" 
+        intervals [6]:
+            xmin = 2.07 
+            xmax = 2.9 
+            text = "( )" 
+        intervals [7]:
+            xmin = 2.9 
+            xmax = 3.41 
+            text = "moj" 
+        intervals [8]:
+            xmin = 3.41 
+            xmax = 3.5 
+            text = "je" 
+        intervals [9]:
+            xmin = 3.5 
+            xmax = 3.91 
+            text = "greh" 
+        intervals [10]:
+            xmin = 3.91 
+            xmax = 4.09 
+            text = "ča" 
+        intervals [11]:
+            xmin = 4.09 
+            xmax = 4.2 
+            text = "o" 
+        intervals [12]:
+            xmin = 4.2 
+            xmax = 4.43 
+            text = "ten" 
+        intervals [13]:
+            xmin = 4.43 
+            xmax = 4.7 
+            text = "nisi" 
+        intervals [14]:
+            xmin = 4.7 
+            xmax = 4.9 
+            text = "niš" 
+        intervals [15]:
+            xmin = 4.9 
+            xmax = 5.44 
+            text = "znal" 
+        intervals [16]:
+            xmin = 5.44 
+            xmax = 6.07 
+            text = "( )" 
+        intervals [17]:
+            xmin = 6.07 
+            xmax = 6.33 
+            text = "ma" 
+        intervals [18]:
+            xmin = 6.33 
+            xmax = 6.46 
+            text = "ne" 
+        intervals [19]:
+            xmin = 6.46 
+            xmax = 7.02 
+            text = "bacilaj" 
+        intervals [20]:
+            xmin = 7.02 
+            xmax = 7.23 
+            text = "oko" 
+        intervals [21]:
+            xmin = 7.23 
+            xmax = 7.67 
+            text = "toga" 
+        intervals [22]:
+            xmin = 7.67 
+            xmax = 8.69 
+            text = "( )" 
+        intervals [23]:
+            xmin = 8.69 
+            xmax = 9.74 
+            text = "ale" 
+        intervals [24]:
+            xmin = 9.74 
+            xmax = 9.85 
+            text = "( )" 
+        intervals [25]:
+            xmin = 9.85 
+            xmax = 10.07 
+            text = "i" 
+        intervals [26]:
+            xmin = 10.07 
+            xmax = 10.23 
+            text = "ti" 
+        intervals [27]:
+            xmin = 10.23 
+            xmax = 10.37 
+            text = "si" 
+        intervals [28]:
+            xmin = 10.37 
+            xmax = 10.54 
+            text = "bil" 
+        intervals [29]:
+            xmin = 10.54 
+            xmax = 10.95 
+            text = "jenako" 
+        intervals [30]:
+            xmin = 10.95 
+            xmax = 11.33 
+            text = "bedast" 
+        intervals [31]:
+            xmin = 11.33 
+            xmax = 11.52 
+            text = "kod" 
+        intervals [32]:
+            xmin = 11.52 
+            xmax = 11.66 
+            text = "i" 
+        intervals [33]:
+            xmin = 11.66 
+            xmax = 11.91 
+            text = "ja" 
+        intervals [34]:
+            xmin = 11.91 
+            xmax = 13.04 
+            text = "( )" 
+        intervals [35]:
+            xmin = 13.04 
+            xmax = 13.56 
+            text = "provaj" 
+        intervals [36]:
+            xmin = 13.56 
+            xmax = 13.71 
+            text = "bit" 
+        intervals [37]:
+            xmin = 13.71 
+            xmax = 14.31 
+            text = "srićan" 
+        intervals [38]:
+            xmin = 14.31 
+            xmax = 14.43 
+            text = "( )" 
+        intervals [39]:
+            xmin = 14.43 
+            xmax = 14.61 
+            text = "i" 
+        intervals [40]:
+            xmin = 14.61 
+            xmax = 15.19 
+            text = "pušćaj" 
+        intervals [41]:
+            xmin = 15.19 
+            xmax = 15.33 
+            text = "ta" 
+        intervals [42]:
+            xmin = 15.33 
+            xmax = 15.88 
+            text = "stakleni" 
+        intervals [43]:
+            xmin = 15.88 
+            xmax = 16.38 
+            text = "zvon" 
+        intervals [44]:
+            xmin = 16.38 
+            xmax = 16.54 
+            text = "( )" 
+        intervals [45]:
+            xmin = 16.54 
+            xmax = 16.75 
+            text = "ne" 
+        intervals [46]:
+            xmin = 16.75 
+            xmax = 17.15 
+            text = "želin" 
+        intervals [47]:
+            xmin = 17.15 
+            xmax = 17.27 
+            text = "ga" 
+        intervals [48]:
+            xmin = 17.27 
+            xmax = 17.47 
+            text = "već" 
+        intervals [49]:
+            xmin = 17.47 
+            xmax = 17.5 
+            text = "" 

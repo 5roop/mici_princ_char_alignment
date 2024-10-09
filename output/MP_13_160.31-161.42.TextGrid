@@ -1,72 +1,80 @@
 File type = "ooTextFile"
 Object class = "TextGrid"
 
-xmin = 0.0
-xmax = 1.09
-tiers? <exists>
-size = 2
-item []:
+xmin = 0 
+xmax = 1.09 
+tiers? <exists> 
+size = 2 
+item []: 
     item [1]:
-        class = "IntervalTier"
-        name = "PhonAlign"
-        xmin = 0.0
-        xmax = 1.09
-        intervals: size = 10
-            intervals [1]:
-                xmin = 0.0
-                xmax = 0.03
-                text = "sp"
-            intervals [2]:
-                xmin = 0.03
-                xmax = 0.23
-                text = "a_B"
-            intervals [3]:
-                xmin = 0.23
-                xmax = 0.26
-                text = "x_E"
-            intervals [4]:
-                xmin = 0.26
-                xmax = 0.42
-                text = "sp"
-            intervals [5]:
-                xmin = 0.42
-                xmax = 0.54
-                text = "z_B"
-            intervals [6]:
-                xmin = 0.54
-                xmax = 0.66
-                text = "v_I"
-            intervals [7]:
-                xmin = 0.66
-                xmax = 0.88
-                text = "i_I"
-            intervals [8]:
-                xmin = 0.88
-                xmax = 1.0
-                text = "z_I"
-            intervals [9]:
-                xmin = 1.0
-                xmax = 1.04
-                text = "d_E"
-            intervals [10]:
-                xmin = 1.04
-                xmax = 1.09
-                text = "sp"
-    item [1]:
-        class = "IntervalTier"
-        name = "WordAlign"
-        xmin = 0.0
-        xmax = 1.09
-        intervals: size = 3
-            intervals [1]:
-                xmin = 0.03
-                xmax = 0.26
-                text = "ah"
-            intervals [2]:
-                xmin = 0.26
-                xmax = 0.42
-                text = ""
-            intervals [3]:
-                xmin = 0.42
-                xmax = 1.04
-                text = "zvizd"
+        class = "IntervalTier" 
+        name = "PhoneAlign" 
+        xmin = 0 
+        xmax = 1.09 
+        intervals: size = 10 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.03 
+            text = "sp" 
+        intervals [2]:
+            xmin = 0.03 
+            xmax = 0.23 
+            text = "a_B" 
+        intervals [3]:
+            xmin = 0.23 
+            xmax = 0.26 
+            text = "x_E" 
+        intervals [4]:
+            xmin = 0.26 
+            xmax = 0.42 
+            text = "sp" 
+        intervals [5]:
+            xmin = 0.42 
+            xmax = 0.54 
+            text = "z_B" 
+        intervals [6]:
+            xmin = 0.54 
+            xmax = 0.66 
+            text = "v_I" 
+        intervals [7]:
+            xmin = 0.66 
+            xmax = 0.88 
+            text = "i_I" 
+        intervals [8]:
+            xmin = 0.88 
+            xmax = 1 
+            text = "z_I" 
+        intervals [9]:
+            xmin = 1 
+            xmax = 1.04 
+            text = "d_E" 
+        intervals [10]:
+            xmin = 1.04 
+            xmax = 1.09 
+            text = "sp" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "WordAlign" 
+        xmin = 0 
+        xmax = 1.09 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.03 
+            text = "" 
+        intervals [2]:
+            xmin = 0.03 
+            xmax = 0.26 
+            text = "ah" 
+        intervals [3]:
+            xmin = 0.26 
+            xmax = 0.42 
+            text = "( )" 
+        intervals [4]:
+            xmin = 0.42 
+            xmax = 1.04 
+            text = "zvizd" 
+        intervals [5]:
+            xmin = 1.04 
+            xmax = 1.09 
+            text = "" 

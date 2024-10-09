@@ -1,52 +1,60 @@
 File type = "ooTextFile"
 Object class = "TextGrid"
 
-xmin = 0.0
-xmax = 0.44
-tiers? <exists>
-size = 2
-item []:
+xmin = 0 
+xmax = 0.44 
+tiers? <exists> 
+size = 2 
+item []: 
     item [1]:
-        class = "IntervalTier"
-        name = "PhonAlign"
-        xmin = 0.0
-        xmax = 0.44
-        intervals: size = 6
-            intervals [1]:
-                xmin = 0.0
-                xmax = 0.03
-                text = "sp"
-            intervals [2]:
-                xmin = 0.03
-                xmax = 0.13
-                text = "a_S"
-            intervals [3]:
-                xmin = 0.13
-                xmax = 0.22
-                text = "z_B"
-            intervals [4]:
-                xmin = 0.22
-                xmax = 0.35
-                text = "a_I"
-            intervals [5]:
-                xmin = 0.35
-                xmax = 0.38
-                text = "tS_E"
-            intervals [6]:
-                xmin = 0.38
-                xmax = 0.44
-                text = "sp"
-    item [1]:
-        class = "IntervalTier"
-        name = "WordAlign"
-        xmin = 0.0
-        xmax = 0.44
-        intervals: size = 2
-            intervals [1]:
-                xmin = 0.03
-                xmax = 0.13
-                text = "a"
-            intervals [2]:
-                xmin = 0.13
-                xmax = 0.38
-                text = "zač"
+        class = "IntervalTier" 
+        name = "PhoneAlign" 
+        xmin = 0 
+        xmax = 0.44 
+        intervals: size = 6 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.03 
+            text = "sp" 
+        intervals [2]:
+            xmin = 0.03 
+            xmax = 0.13 
+            text = "a_S" 
+        intervals [3]:
+            xmin = 0.13 
+            xmax = 0.22 
+            text = "z_B" 
+        intervals [4]:
+            xmin = 0.22 
+            xmax = 0.35 
+            text = "a_I" 
+        intervals [5]:
+            xmin = 0.35 
+            xmax = 0.38 
+            text = "tS_E" 
+        intervals [6]:
+            xmin = 0.38 
+            xmax = 0.44 
+            text = "sp" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "WordAlign" 
+        xmin = 0 
+        xmax = 0.44 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.03 
+            text = "" 
+        intervals [2]:
+            xmin = 0.03 
+            xmax = 0.13 
+            text = "a" 
+        intervals [3]:
+            xmin = 0.13 
+            xmax = 0.38 
+            text = "zač" 
+        intervals [4]:
+            xmin = 0.38 
+            xmax = 0.44 
+            text = "" 
